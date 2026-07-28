@@ -1,0 +1,114 @@
+\documentclass[12pt,a4paper,titlepage]{report}
+\usepackage[a4paper,left=2.5cm,right=3cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\thechapter}{1em}{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}  
+\usepackage{microtype}  % fixes overhanging text
+% Do NOT start (sub) sections and in particular paragraphs on new pages
+\widowpenalty=10000
+\clubpenalty=10000
+\usepackage{csquotes} % for \enquote{}
+\usepackage{mathptmx} % for times new roman
+
+\usepackage{graphicx}
+\usepackage{flafter}
+\usepackage{graphbox} % for vertical alignment
+\usepackage{wrapfig} % for side fig
+\usepackage{caption}
+\usepackage{multirow} % for tables
+\usepackage{booktabs}
+
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+\usepackage{amsmath,amsfonts,amssymb}
+\newcommand{\e}{\mathrm{e}}
+\DeclareMathOperator*{\diag}{diag}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\median}{median}
+\DeclareMathOperator*{\softmax}{soft\,max}
+\DeclareMathOperator*{\concat}{concat}
+\relpenalty=10000
+\usepackage{calrsfs} % for less fancy mathcal
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+% \renewcommand\vec{\mathbf}
+
+\usepackage{siunitx}
+\DeclareSIUnit\year{yr}
+\DeclareSIUnit\solarmass{\mathrm{M}_\odot}
+\DeclareSIUnit\parsec{pc}
+\DeclareSIUnit\degreeLat{\SI{}{\degree}N}
+\DeclareSIUnit\degreeLong{\SI{}{\degree}E}
+\DeclareSIUnit{\nothing}{\relax}
+
+\usepackage[backend=bibtex,style=numeric,sorting=none]{biblatex}
+\addbibresource{refs.bib}
+% \renewcommand{\cite}{\footfullcite}
+
+\pdfpkresolution=300 
+
+\begin{document}	
+	\begin{titlepage}
+		\begin{center}
+			
+			{\Huge\emph{\textls[200]{Studies on}}} \\ 
+			\vspace{4pt}
+			{\Huge\textls[200]{\MakeUppercase{Machine-Learning Based}}} \\
+			\vspace{4pt}
+			{\huge\textls[140]{\MakeUppercase{Detection of Overlapping}}} \\
+			\vspace{4pt}
+			{\huge\textls[80]{\MakeUppercase{Gravitational-Wave Signals}}} \\
+			\vspace{4pt}
+			{\LARGE\textls[20]{\MakeUppercase{in Synthetic Einstein Telescope Data}}} 
+			
+			\vspace{\fill}
+			{\rule{0.5\textwidth}{0.5pt}}
+			\vspace{\fill}
+			
+			{\huge\MakeUppercase{A Thesis}} \\
+			\vspace{14.4pt}
+			{\Large\emph{Submitted In Partial Fulfillment \\
+					of the Requirements for the Degree of}} \\
+			\vspace{2pt}
+			{\LARGE\MakeUppercase{Master~of~Science}} \\
+			\vspace{14.4pt}
+			{\Large\emph{in the}} \\
+			\vspace{2pt}
+			{\Large\MakeUppercase{Institute~of~Nuclear~Physics}} \\
+			\vspace{14.4pt}
+			{\Large\emph{at}} \\
+			\vspace{2pt}
+			{\LARGE\MakeUppercase{Universität~Münster}} \\
+			\vspace{14.4pt}
+			{\Large\emph{by}} \\
+			\vspace{2pt}
+			{\LARGE Sebastian~\MakeUppercase{Wein}} 
+			
+			\vspace{\fill}
+			{\rule{0.5\textwidth}{0.5pt}}
+			\vspace{\fill}
+			
+			{\Large\emph{Supervised by}} \\
+			\vspace{1pt}
+			{\Large Prof.~Dr.~A.~\MakeUppercase{Kappes}} \\
+			\vspace{1pt}
+			{\Large\emph{and Co-Examined by}} \\ 
+			\vspace{1pt}
+			{\Large Prof.~Dr.~A.~\MakeUppercase{Andronic}} \\
+			
+			\vspace{\fill}
+			\vspace{\fill}
+			\vspace{\fill}
+			\vspace{\fill}
+			\includegraphics[width=6cm]{Logo_UniMuenster_2023_RGB.pdf}
+			
+		\end{center}
+	\end{titlepage}
+\end{document}
+
+% (confident) gw signals detection is too strong, maybe change to search:
+% machine learning based low-latency searches for gravitational wave signals in synthetic einstein telescope data

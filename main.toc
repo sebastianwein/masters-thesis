@@ -1,0 +1,46 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Gravitational Waves}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}General Relativity}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Properties in Vacuum}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Production}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Compact Binary Coalescences}{7}{section.2.4}%
+\contentsline {chapter}{\numberline {3}The Einstein Telescope}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Interferometric Detection}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Conceptual Design}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Scientific Goals}{14}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Low-Latency Searches}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Problem Setup}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Matched Filtering}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Challenges and Thesis Motivation}{17}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Machine Learning}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Basics}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Convolutional Neural Networks}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Transformers}{24}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Data Simulation}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Detector Noise}{31}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Gravitational Wave Signals}{34}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Samples and Datasets}{38}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Post-Processing}{40}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Binary Classification}{43}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Problem Setup}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2}CNN and Transformer Models}{44}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Training}{47}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Performance Comparison}{48}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Parameter Biases}{48}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Attention Analysis}{52}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Summary}{54}{section.7.7}%
+\contentsline {chapter}{\numberline {8}Heatmap Regression}{55}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Problem Setup}{55}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Heatmap Construction and Post-Processing}{57}{section.8.2}%
+\contentsline {section}{\numberline {8.3}CNN and Transformer Models}{59}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Performance Comparison}{61}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Injection Study}{64}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Summary}{68}{section.8.6}%
+\contentsline {chapter}{\numberline {9}Detection Transformer}{69}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Architecture}{69}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Training}{71}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Comparison with Heatmap Regression}{73}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Injection Study}{76}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Discussion}{78}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Conclusion}{79}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Quadrupole Moment}{87}{appendix.A}%

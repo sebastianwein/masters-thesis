@@ -1,0 +1,149 @@
+\documentclass[12pt,a4paper,titlepage,twoside,openright]{report}
+\usepackage[a4paper,inner=3.5cm,outer=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\thechapter}{1em}{}
+
+%\usepackage{xparse}
+%\let\oldsubsection\subsection
+%\RenewDocumentCommand{\subsection}{s o m}{%
+%	\IfNoValueTF{#2}
+%	{\oldsubsection{#3}}
+%	{\oldsubsection[#2]{#3}}%
+%}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}  
+\usepackage{microtype}  % fixes overhanging text
+% Do NOT start (sub) sections and in particular paragraphs on new pages
+\widowpenalty=10000
+\clubpenalty=10000
+\usepackage{csquotes} % for \enquote{}
+\DeclareUnicodeCharacter{2009}{\,} 
+
+\usepackage{graphicx}
+\usepackage{subcaption}  % for subfigures
+\usepackage{pdfpages}
+\usepackage{flafter}
+\usepackage{graphbox} % for vertical alignment
+\usepackage{wrapfig} % for side fig
+\usepackage{caption}
+\usepackage{multirow} % for tables
+\usepackage[table]{xcolor} % for table color
+\usepackage{tabularray}
+\usepackage{booktabs}
+\usepackage{enumitem} % for lists
+
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{dsfont} % for identity
+\newcommand{\e}{\mathrm{e}}
+\DeclareMathOperator*{\diag}{diag}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\median}{median}
+\DeclareMathOperator*{\softmax}{softmax}
+\DeclareMathOperator*{\concat}{concat}
+\DeclareMathOperator*{\rect}{rect}
+\relpenalty=10000
+\usepackage{calrsfs} % for less fancy mathcal
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+% \renewcommand\vec{\mathbf}
+\usepackage{physics}  % for not fraktur re and im 
+
+\usepackage[separate-uncertainty = true]{siunitx}
+\DeclareSIUnit\month{month}
+\DeclareSIUnit\year{yr}
+\DeclareSIUnit\solarmass{\mathrm{M}_\odot}
+\DeclareSIUnit\parsec{pc}
+\DeclareSIUnit\degreeLat{\SI{}{\degree}N}
+\DeclareSIUnit\degreeLong{\SI{}{\degree}E}
+\DeclareSIUnit{\nothing}{\relax}
+
+\usepackage[
+	backend=bibtex,
+	style=numeric,
+	sorting=none,
+	urldate=long]{biblatex}
+\addbibresource{refs.bib}
+\AtEveryBibitem{%
+	\iffieldundef{doi}
+	{}
+	{%
+		\clearfield{url}%
+		\clearfield{urlyear}%
+		\clearfield{urlmonth}%
+		\clearfield{urlday}%
+	}%
+}
+% \renewcommand{\cite}{\footfullcite}
+
+% \usepackage{mathptmx} % for *ugly* times new roman
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+
+\pdfpkresolution=300 
+	
+\begin{document}
+\sloppy
+\pagenumbering{roman}
+
+\includepdf{titlepage}
+
+\includepdf[openright=true]{plagiatserklarung_eng_neu_signed}
+
+\tableofcontents
+
+\chapter{Introduction}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\begingroup
+% \boolfalse{citerequest}
+\input{introduction/text}
+\endgroup
+
+\chapter{Gravitational Waves} 
+\label{sec:gravitational_waves}
+% \booltrue{citerequest}
+\input{theory_of_gravitational_waves/text}
+
+\chapter{The Einstein Telescope}
+\label{sec:einstein_telescope}
+\input{the_einstein_telescope/text}
+
+\chapter{Low-Latency Searches}
+\label{sec:matched_filtering}
+\input{matched_filtering/text}
+
+\chapter{Machine Learning}
+\label{sec:machine_learning}
+\input{machine_learning/text}
+
+\chapter{Data Simulation}
+\label{sec:data_simulation}
+\input{data_simulation/text}
+
+\chapter{Binary Classification}
+\label{sec:long_duration}
+\input{binary_classification/text}
+
+\chapter{Heatmap Regression}
+\label{sec:heatmap}
+\input{multiple_signal_detection/heatmap}
+
+\chapter{Detection Transformer}
+\label{sec:detr}
+\input{multiple_signal_detection/detr}
+
+\chapter{Conclusion}
+\label{sec:conclusion}
+\input{conclusion/text}
+
+\printbibliography
+
+\appendix
+\input{appendix/text}
+
+\end{document}

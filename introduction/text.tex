@@ -1,0 +1,39 @@
+% what are GWs
+% very faint -> only massive astrophysical objects
+% detection using laser interferometers
+% main signal CBCs (maybe mention ligo and gw150914)
+
+Gravitational waves (GWs) are small oscillating perturbations of the spacetime metric caused by accelerating masses.
+Because they are so faint, only GW signals emitted by massive astrophysical objects have any chance of being detected. 
+In particular, these are GWs emitted during the coalescence, \emph{i.e.}\ the inspiral and merger, of a system of two black holes or neutron stars. These types of systems are called \emph{compact binary coalescences} (CBCs) and give rise to a \enquote{chirp}-like GW signal, increasing in frequency and amplitude up until the merger of the two objects.
+
+Large-scale laser interferometers allow for the detection of these GW signals. They are used at facilities such as LIGO~\cite{Abbott_2009, Aasi_2015}, where the first direct observation of gravitational waves was achieved in 2015 \cite{PhysRevLett.116.061102}. Currently there are a handful of such sites operating, forming the network of second-generation GW detectors.
+
+As the current generation of detectors is reaching their design sensitivities and facility limits, a new third generation of detectors is being proposed.
+One of these is the Einstein Telescope (ET) \cite{Punturo_2010, Hild_2011}, which will be based in Europe.
+% \cite{abac2025scienceeinsteintelescope, Branchesi_2023}
+ET aims for an improved design sensitivity compared to second-generation detectors, particularly in the low-frequency regime $\pazocal{O(\SI{1}{\hertz})}$.  
+However, with this increase in sensitivity, new challenges for \emph{signal detection} arise. In this context, signal detection refers to the identification of GW signals in the detector data stream. 
+The challenge is mostly the growing quantity of information in the data and the increased computational power needed to extract it. ET will detect more signals in total, and these signals will stay up to minutes or hours in the detector's sensitivity band. Combined, this leads to frequent signal time-overlap.
+
+% up to now: matched filtering
+% does not scale well for long overlapping signals
+
+For second-generation data, GW searches rely on \emph{matched filtering} to produce event candidates \cite{PhysRevD.85.122006, Usman_2016}. 
+However, this algorithm is known to not scale well in time and memory complexity when handling long and overlapping signals. This is especially problematic for \emph{low-latency} searches, which produce triggers for data monitoring and multi-messenger astronomy in real time. 	
+
+Previously, the need for low-latency search algorithms has motivated the investigation of alternatives to matched filtering. Notably, \emph{machine-learning} has shown promising results while being far more computationally efficient \cite{George_2018, PhysRevD.100.063015}. The research focuses mostly on convolutional neural networks (CNNs) for detecting GW signals in second-generation detector conditions.
+For ET-like data with overlapping signals, a different type of architecture has proven successful for GW parameter estimation instead \cite{Papalini_2025}. Namely, that is the Transformer~\cite{NIPS2017_3f5ee243} architecture, whose performance for GW detection is not well studied.
+
+This work aims to implement machine-learning models to detect long-duration, overlapping CBC signals in ET conditions. Motivated by the results in \cite{Papalini_2025}, the performance of transformer-based architectures will be compared to more standard CNN approaches. 
+
+The rest of this thesis is structured as follows: Ch.~\ref{sec:gravitational_waves} provides some theoretical background on GWs, and Ch.~\ref{sec:einstein_telescope} introduces ET.  Ch.~\ref{sec:matched_filtering} describes GW searches with matched filtering. After that follows an introduction to machine learning in Ch.~\ref{sec:machine_learning}, focusing on CNNs and the Transformer.
+Training neural networks requires synthetic ET-like data, and Ch.~\ref{sec:data_simulation} will be a detailed description of the simulation of this data. 
+
+The results are split in two parts.
+Ch.~\ref{sec:long_duration} isolates the problem of processing the large inputs required to capture the long-duration signals that are expected for ET. Chs.~\ref{sec:heatmap} and \ref{sec:detr} deal with detecting multiple overlapping signals. Each time, two models are compared: one more closely resembling existing approaches and one being novel.
+The thesis concludes with a summary of its findings and an outlook in Ch.~\ref{sec:conclusion}.
+
+% focus on this work's contribution which is transformer based overlapping signal detection 
+% real time detection compared to matched which is not 
+% goal: low-latency CBC search with machine learning -> can be adapted to unmodelled signals as a bonus

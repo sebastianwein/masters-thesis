@@ -1,0 +1,143 @@
+% Intro abaout ET computing infrastructure:
+% low latency searches for cbcs
+% matched filtering -> trigger
+% bayesian inference -> parameters
+% masses, etc: Data monitoring
+% sky-localization: Multi-messenger
+
+GW signals are identified in detector data with search algorithms, returning (multiple) GW candidates. 
+These are called \emph{online} if they produce real-time or low-latency triggers on the data as they are taken and \emph{offline} else.
+In the observing runs of the second-generation detectors, online searches were instrumental for data monitoring and multi-messenger astronomy \cite{Nitz_2018}. 
+These searches rely upon matched filtering to produce real-time triggers, and focused Bayesian inference for subsequent parameter estimation. 
+
+This chapter states the problem of identifying GW signals in the detector data formally. It introduces matched filtering, and its shortcomings for low-latency trigger generation in the high event-rate conditions of ET, motivating the investigation of alternative or complementary methods, \emph{e.g.}\ machine-learning based. The chapter's main source is \cite{10.1093/acprof:oso/9780198570745.001.0001}.
+
+\section{Problem Setup}
+
+For a given detector stream, a search algorithm will return a number of time triggers corresponding to identified GW events. The returned time will usually correspond to the CBC merger time and should be accompanied by some confidence measure. 
+
+The detector strain is a function of time $s(t)$, and is made up of two additive components, the instrument noise $n(t)$ and a possible signal contribution $h(t)$:
+\begin{equation}
+	s(t) = n(t) + h(t).
+\end{equation}
+For now, the signal contribution will be assumed to either vanish or correspond to a single CBC signal with merger time $t_\text{coa}$. The generalization to multiple signals will be explored later.
+If a signal is present, it will induce a strain according to Eq.~\ref{eq:einstein_telescope:strain} resulting in amplitudes of order \SI{E-21}{\nothing} or smaller.
+Usually $|h(t)| \ll |n(t)|$, making the identification of this signal inside the much larger noise non-trivial.
+
+The noise strain can be described as a statistical process, which is stationary, \emph{i.e.}, its properties do not change over time. This process is characterized by the noise power spectral density $S_n(f)$ (PSD). The PSD is in turn related to the Fourier transform of the noise strain $\tilde{n}(f)$. In particular, through the expectation value $\langle\cdot\rangle$ of the Fourier components:
+\begin{equation}
+	\label{eq:matched_filtering:PSD_definition}
+	\langle\tilde{n}^*(f)\,\tilde{n}(f')\rangle 
+	= \delta(f-f')\,\frac{1}{2}S_n(f).
+\end{equation}	
+Here, $\delta$ denotes the Dirac delta function. Notice that since $n$ is real, $\tilde{n}(-f)^* = \tilde{n}(f)$ and therefore $S_n(-f) = S_n(f)$. The factor $1/2$ is inserted such that the mean squared noise $\langle n(t)^2\rangle$ is obtained by integrating $S_n(f)$ over the physical range of $f\geq0$, rather than from $-\infty$ to $\infty$:
+\begin{align}
+	\label{eq:matched_filtering:stationarity}
+	\langle n(t)^2\rangle &=
+	\langle n^*(t)\,n(t)\rangle_{\,t=0} \\
+	&= \int_{-\infty}^\infty\mathrm{d}f\mathrm{d}f'\,
+	\langle\tilde{n}^*(f)\tilde{n}(f')\rangle \\
+	\label{eq:matched_filtering:definition}
+	&=  \frac{1}{2}\int_{-\infty}^\infty\mathrm{d}f\,S_n(f) \\
+	&= \int_0^\infty\mathrm{d}f\,S_n(f),
+\end{align}
+where Eq.~\ref{eq:matched_filtering:stationarity} makes use of stationarity, and Eq.~\ref{eq:matched_filtering:definition} follows from the PSD definition (Eq.~\ref{eq:matched_filtering:PSD_definition}). To emphasize this fact, the PSD is called \emph{single-sided} if defined like this. This convention will be used in the rest of this work.
+
+\section{Matched Filtering}
+
+If the shape the signal strain can take on is known (as is the case for CBC signals), matched filtering can be applied. The basic idea is to \enquote{filter out} the noise contribution of the total detector strain by multiplying with a filter function and integrating over the observation time $T$. Although not necessarily optimal, this technique works for a filter that is equal to the signal:
+\begin{equation}
+	\frac{1}{T}\int_0^T \mathrm{d}t s(t)h(t) = \frac{1}{T}\int_0^T \mathrm{d}t h^2(t) + \frac{1}{T}\int_0^T \mathrm{d}t n(t)h(t).
+\end{equation}
+Here, the first integrand on the right-hand side is positive definite and the first summand will be constant for large $T$ while the second summand which is the noise contribution will approach zero.
+
+This procedure can be formalized by defining the filtered detector strain as
+\begin{equation}
+	\label{eq:matched_filtering:filtered_strain}
+	\hat{s} = \int_{-\infty}^\infty \mathrm{d}t\,s(t)K(t),
+\end{equation}
+for some filter function $K(t)$. The \emph{optimal} or \emph{matched} filter should maximize the \emph{signal-to-noise ratio} (SNR) of $\hat{s}$. The SNR is taken as the ratio of $S$, the expected value of $\hat{s}$ if a signal is present, and $N$, the root mean square of $\hat{s}$ if \emph{no} signal is present. That is,
+\begin{equation}
+	S = \langle\hat{s}\rangle \quad \text{and} \quad 
+	N^2 = [\langle\hat{s}^2\rangle - \langle\hat{s}\rangle^2]_{h(t) = 0}.
+\end{equation}
+Requiring $\langle n(t)\rangle = 0$ and making use of the PSD definition (Eq.~\ref{eq:matched_filtering:PSD_definition}), the SNR takes the form,
+\begin{equation}
+	\label{eq:matched_filtering:snr}
+	\frac{S}{N} 
+	= \frac{\int_{-\infty}^\infty \mathrm{d}f\,\tilde{h}(f)\tilde{K}^*(f)}
+	{\sqrt{\int_{-\infty}^\infty \mathrm{d}f\frac{1}{2}S_n(f)|\tilde{K}(f)|^2}}.
+\end{equation}
+Skipping the derivation, the solution to the variational problem that is to find the optimal filter $K(t)$ maximizing $S/N$ is given by,
+\begin{equation}
+	\tilde{K}(f) \sim \frac{\tilde{h}(f)}{S_n(f)}.
+\end{equation}
+See \cite{10.1093/acprof:oso/9780198570745.001.0001} for proof.
+Notice that for white noise $S_n(f) = 1$ and the optimal filter will be equal to the signal which corresponds to the naive approach taken earlier. 
+
+The search of the optimal filter is simply brute forced. To this end, a \emph{template bank} of possible waveforms is constructed, covering the whole parameter space at a reasonable resolution. The template that yields the maximum SNR while exceeding some threshold will be the GW signal candidate. This is a strongly simplified search pipeline. A \emph{full} pipeline is provided by the PyCBC software package \cite{alex_nitz_2023_10013996, Usman_2016}.  
+
+In practice, the expectation value $S=\langle\hat{s}\rangle$ and therefore the SNR, $S/N$, is obviously not available as it requires knowledge of the true GW signal $h(t)$. Instead, the SNR is calculated as $\rho = \hat{s}/N$, which depends on the full detector strain $s(t)$. This gives a \enquote{noisy} estimate of $S/N$, reflecting the instrument noise statistics. On average, $\langle\rho\rangle = S/N$.
+
+Matched filtering will return a time trigger, \emph{e.g.}\ the merger time of the template, and the corresponding SNR serves as a confidence measure. As a bonus, the optimal template gives a rough estimate of the signal parameters.
+The SNR corresponding to the optimal filter reads,
+\begin{equation}
+	\label{eq:matched_filtering:optimal_snr}
+	\left(\frac{S}{N}\right)_\text{opt}
+	= 2\sqrt{\int_0^\infty\,\mathrm{d}f\,\frac{|\tilde{h}(f)|^2}{S_n(f)}}.
+\end{equation}
+This is often and will also in this work be called the SNR of the signal $h(t)$ for a given noise PSD. Note that this is not literally the SNR of the signal $h(t)$ with respect to the detector noise $n(t)$, 
+but rather the SNR of the optimally filtered detector strain $\hat{s}$. Still this wording is used because it gives a sense of the detectability or loudness of a signal. 
+To give a sense of scale: for a random template the SNR will be $2$ on average.
+The PyCBC matched filtering pipeline typically disregards templates with SNR values below a threshold of $5.5$ \cite{Usman_2016}.
+
+\section{Challenges and Thesis Motivation}
+
+% -- problems -- 
+% high sensitivity 
+% lots of signals 10⁵ to 10⁶ BBHs and 10⁴ BNS
+% long signal duration
+% overlap (maybe some numbers)
+
+As already mentioned, the high sensitivity of ET will introduce challenges for online GW searches with matched filtering. The problem is less an increase in data volume from the six interferometers (plus auxiliary channels) compared to the existing second-generation network. Rather, it is the quantity of valuable scientific information hidden in the data that will grow, and the increased computational power needed to extract it.
+
+The problem is twofold: The increased sensitivity results in longer-duration signals, and a larger event-rate. Combined, this introduces the added challenge of signal overlap. 
+
+The increased CBC signal durations stem exclusively from ET's improvements in the low-frequency range. CBC signals are chirp-like, and will enter the ET sensitivity band earlier thus being detectable for longer. An approximation can be made by recalling that the binary's orbital frequency $\omega$ is related to the time to coalesce $\tau$ through Eq.~\ref{eq:gravitational_waves:cbc_freq}, and that the GW signal frequency is $f=\omega/\pi$. Putting both together, and rearranging yields,
+\begin{equation}
+	\label{eq:matched_filtering:signal_duration}
+	\tau \approx \SI{2.18}{\second}\,
+	\left(\frac{\SI{1.21}{\solarmass}}{\pazocal{M}}\right)^\frac{5}{3}\,
+	\left(\frac{\SI{100}{\hertz}}{f_\text{lower}}\right)^\frac{8}{3},
+\end{equation}
+the remaining signal duration once a frequency of $f_\text{lower}$ is reached.
+GW150914 with chirp mass \SI{30}{\solarmass} entered LIGO's sensitivity band at \SI{20}{\hertz} and lasted for less than \SI{1}{\second}. In contrast, it would have entered ET's band around \SI{4}{\hertz}, lasting for a whole minute. This effect is even more pronounced for low-mass inspirals such as BNS mergers. GW170817 had a chirp mass of \SI{1.2}{\solarmass} and entered the LIGO band at \SI{10}{\hertz}, corresponding to a signal duration of \SI{17}{\minute}. In ET that would be \SI{1}{\hertz} and total signal-duration of more than \SI{24}{\hour}.
+% TODO: check numbers
+
+ET is expected to detect \SI{E+5}{\nothing} to \SI{E+6}{\nothing} CBC signals annually. As these events occur independently of one another, they can be assumed to follow a Poissonian distribution. For a given signal rate $\lambda$, the probability that two events are separated by a time-duration of less than $\Delta t$ is,
+\begin{equation}
+	P(\Delta t) = 1 - \e^{-\lambda \Delta t}.
+\end{equation}
+For the higher estimate of $\lambda = \SI{E+6}{\per\year}$, this means that the majority of all signals, \SI{85}{\percent}, will be separated by less than a minute. A total of \SI{3E+4}{\nothing} signals will be separated by less than one second. Since for BBH signals (which make up the majority of mergers) durations of $\sim\SI{1}{\minute}$ are expected, this high merger rate introduces regular signal overlap. 
+
+% -- challenges for matched filtering --
+% template bank explodes 
+% offline search works \cite{Relton_2022}
+% real time? not clear 
+
+These two effects introduce computational challenges for matched filtering. For one, the increased signal-duration necessitates longer waveform templates. This increases the template banks' memory needs, and slows down the algorithm, which is linear in time complexity with respect to template length. Secondly, the signal overlap, especially for mergers separated by less than one second, breaks the assumption that detector data contains, at most, one signal at any time. 
+% that templates are independent of one another. 
+
+These challenges have been addressed in \cite{Relton_2022}. Without adaption, matched filtering turns out to retain accuracy in \emph{offline} GW searches when signals are separated by more than one second, but breaks down for closer signals. The latter case of separations of less than one second will make up a substantial amount of signals in ET. Also, it is not yet clear how \emph{online} searches will perform in ET conditions. This motivates the investigation of alternative methods for low-latency GW searches.
+
+% -- thesis motivation --
+% use machine learning
+% focus only on BBHs 
+% far more frequent (-> more important for data monitoring)
+% because BNS complicate searches in two ways:
+% day long -> source moves on the sky
+% multi-messenger -> need for negative latency alert
+% focus on long signals first
+% then overlapping
+
+This thesis studies the performance of machine-learning methods for low-latency searches in ET conditions. The scope of this work includes BBH signals only, while BNS mergers will be disregarded. In ET, the expected event rate of BBH mergers is significantly larger than for BNS. The use case of BBH low-latency searches is primarily data monitoring, as opposed to multi-messenger alerts. BNS signals complicate searches in two ways. Their signal-duration is much longer, and their potential for multi-messenger astronomy requires \emph{negative}-latency alerts, where triggers are distributed prior to the signal's merger phase.

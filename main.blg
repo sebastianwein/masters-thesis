@@ -1,0 +1,176 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 13820 items from 5000.
+Database file #1: main-blx.bib
+Database file #2: refs.bib
+I was expecting a `,' or a `}'---line 20 of file refs.bib
+ :  
+ :  isbn={0805387323}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--string name "july" is undefined
+--line 261 of file refs.bib
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated buffer (elt_size=1) to 80000 items from 60000.
+Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
+Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
+Reallocated out_buf (elt_size=1) to 80000 items from 60000.
+Reallocated name_tok (elt_size=4) to 80000 items from 60000.
+Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Warning--string name "july" is undefined
+--line 326 of file refs.bib
+Reallocated str_pool (elt_size=1) to 325000 items from 260000.
+I was expecting a `,' or a `}'---line 463 of file refs.bib
+ :  
+ :  author={Tunstall, L. and von Werra, L. and Wolf, T.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2009
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Aasi_2015
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevLett.116.061102
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Acernese_2014
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevX.9.031040
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevX.11.021053
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevX.13.041039
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry theligoscientificcollaboration2025gwtc40updatinggravitationalwavetransient
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2017
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry abac2025scienceeinsteintelescope
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2017_kilonova
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2020
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Reallocated str_pool (elt_size=1) to 390000 items from 325000.
+Warning--you've exceeded 500, the entry-string-size, for entry theligoscientificcollaboration2025gwtc40updatinggravitationalwavetransient
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Aasi_2015
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevX.11.021053
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevX.13.041039
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Acernese_2014
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2020
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevX.9.031040
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry PhysRevLett.116.061102
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2017_kilonova
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2009
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Abbott_2017
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry abac2025scienceeinsteintelescope
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 63 entries,
+            6399 wiz_defined-function locations,
+            1697 strings with 295420 characters,
+and the built_in function-call counts, 31065985 in all, are:
+= -- 3242179
+> -- 132234
+< -- 2015
++ -- 1289715
+- -- 83364
+* -- 2279587
+:= -- 4571527
+add.period$ -- 0
+call.type$ -- 63
+change.case$ -- 1275
+chr.to.int$ -- 218
+cite$ -- 124
+duplicate$ -- 3295547
+empty$ -- 2258100
+format.name$ -- 175595
+if$ -- 5625475
+int.to.chr$ -- 0
+int.to.str$ -- 176
+missing$ -- 0
+newline$ -- 96148
+num.names$ -- 3313
+pop$ -- 335222
+preamble$ -- 1
+purify$ -- 32841
+quote$ -- 0
+skip$ -- 87578
+stack$ -- 0
+substring$ -- 6634053
+swap$ -- 229102
+text.length$ -- 19358
+text.prefix$ -- 2444
+top$ -- 1
+type$ -- 2127
+warning$ -- 0
+while$ -- 570517
+width$ -- 0
+write$ -- 96086
+(There were 2 error messages)

@@ -1,0 +1,94 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: titlepage.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: titlepage-blx.bib
+Database file #2: refs.bib
+I was expecting a `,' or a `}'---line 123 of file refs.bib
+ :  
+ :  isbn={0805387323}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated buffer (elt_size=1) to 80000 items from 60000.
+Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
+Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
+Reallocated out_buf (elt_size=1) to 80000 items from 60000.
+Reallocated name_tok (elt_size=4) to 80000 items from 60000.
+Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+I was expecting a `,' or a `}'---line 359 of file refs.bib
+ :  
+ :  author={Tunstall, L. and von Werra, L. and Wolf, T.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 1 entry,
+            6399 wiz_defined-function locations,
+            1203 strings with 8980 characters,
+and the built_in function-call counts, 1534 in all, are:
+= -- 73
+> -- 70
+< -- 1
++ -- 49
+- -- 28
+* -- 32
+:= -- 370
+add.period$ -- 0
+call.type$ -- 1
+change.case$ -- 0
+chr.to.int$ -- 42
+cite$ -- 0
+duplicate$ -- 11
+empty$ -- 104
+format.name$ -- 0
+if$ -- 325
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 20
+num.names$ -- 0
+pop$ -- 47
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 78
+stack$ -- 0
+substring$ -- 154
+swap$ -- 1
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 22
+warning$ -- 0
+while$ -- 64
+width$ -- 0
+write$ -- 20
+(There were 2 error messages)

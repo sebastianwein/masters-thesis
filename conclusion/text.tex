@@ -1,0 +1,36 @@
+% models can process 64s long inputs
+% transformer based architecture have proven benificial for prediction multiple signals
+% in particular, two archtitectures show promising results: transformer heatmap regressor, detr
+% both retrieve a non-zero fraction of signals at low FARs of 1/month, while achieving low latencies
+% while heatmap performs slightly better at these low FARs, DETR removes post-processing, better time resolution, *can* detect signals regardless of separation, and is easily adapted to parameter estimation
+
+This thesis successfully developed machine-learning models that can detect long-duration, overlapping signals in synthetic ET data. 
+This work focuses on black-hole CBCs and uses \SI{64}{\second} long samples. Each sample contains up to six signals, motivated by the expected event rate of \SI{E+5}{\per\year} to \SI{E+6}{\per\year} \cite{abac2025scienceeinsteintelescope}. For one sample, the models output multiple GW candidates, each with a confidence measure and the signal coalescence-time.
+
+In particular, two architectures have been implemented, both showing promising results. These consist of a CNN backbone, as well as transformer components with global attention. 
+A CNN backbone efficiently processes the large input to a more condensed latent representation. The backbone treats each ET detector stream as a different channel and employs heavy downsampling afterwards. Using transformer components, the models can efficiently process the whole latent representation. Exploiting \emph{global} information across the whole time series has shown increased performance for detecting multiple, overlapping signals per sample, compared to models with a \emph{local} receptive field.
+
+The two models differ mostly in their output. One is a transformer heatmap regressor, which outputs a \enquote{probability time series}. From this, GW candidates are extracted via peak extraction. The other model is the Detection Transformer (DETR) and outputs candidate events directly.
+
+Both models can retrieve a non-zero fraction of signals at low FARs of $1/\SI{}{\month}$, allowing them to make adequately confident detections for low-latency searches. 
+Exact detection ratios are not reported in this conclusion, as these are dataset-dependent, especially on the chosen SNR range, which was not chosen to be realistic here. The results should be understood as proof-of-concept.
+
+These machine-learning algorithms are generally far more computationally efficient than matched filtering. Although not tested, it is reasonable to assume that the models here can process one sample in $<\SI{64}{\second}$, making them compatible with low-latency searches.
+
+Although both models' performance is roughly comparable, and the heatmap regressor even achieves higher detection ratios for low FARs of $1/\SI{}{\month}$, DETR appears more promising as a basis for future work. In particular, DETR\dots
+\begin{itemize}[noitemsep,topsep=0pt]
+	\item Removes the need for post-processing steps to construct GW candidates.
+	\item Makes more accurate time predictions with a standard deviation of \SI{17}{\milli\second} compared to \SI{34}{\milli\second}. 
+	\item Can be easily adapted to predict other signal parameters  as well. This is important for low-latency searches. Its improved time-prediction accuracy by direct prediction is promising in this case.
+	\item Can make predictions regardless of signal separation. This is not the case for the heatmap regressor and for standard matched filtering searches \cite{Relton_2022}, which only retrieve one of two signals if separations are small.
+	\item Might improve with more data and longer training, as suggested by the learning curves.
+\end{itemize}
+
+% outlook: detr more data longer training
+% try parameter estimation as well
+% rework matching algorithm
+% work with real detector stream and evaluate on data with realistic snr dist and poissonian number of mergers
+
+Future work should focus on training DETR with more data for more epochs. For increased performance at low FARs, fine-tuning with a reworked	 Hungarian matching scheme could be investigated. DETR is easily adapted to predict signal parameters as well. This should be studied, focusing on the intrinsic parameters such as the masses and spins first.
+
+Finally, models need to be evaluated on more realistic ET-like data. This includes the simulation of a proper detector stream, which is split into \SI{64}{\second} samples later. These will contain the inspiral parts of signals with coalescence times outside the sample window. Further, instead of sampling the number of signals uniformly, these should follow a Poissonian distribution with the expected ET event rate. Instead of sampling the SNRs uniformly, signals should be simulated ensuring some distance distribution. Usually, this is a second-order power law.
