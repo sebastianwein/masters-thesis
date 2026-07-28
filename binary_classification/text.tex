@@ -11,9 +11,8 @@ As previously mentioned, the task of detecting long-duration overlapping signals
 % Try transformer architecture because it captures long range dependencies
 % Image processing -> ViT
 
-To this end, multiple datasets with increasing sample lengths are simulated. For the purposes of this study, every sample contains only one signal at most. The problem of detecting multiple signals per sample is dealt with in the next chapter. This study compares a CNN, the \emph{de facto} standard approach, and a transformer model when handling large inputs. The code for all models used in this thesis is available at \cite{git_models}.
-
-% Although \cite{Papalini_2025} motivates the use of transformers for overlapping signals primarily, the transformer's ability to capture long-range dependencies could outperform CNNs in this context. 
+To this end, multiple datasets with increasing sample lengths are simulated. For the purposes of this study, every sample contains only one signal at most. The problem of detecting multiple signals per sample is dealt with in the next chapter. This study compares a CNN, the \emph{de facto} standard approach, and a transformer model when handling large inputs. 
+Although \cite{Papalini_2025} motivates the use of transformers for overlapping signals primarily, the transformer's ability to capture long-range dependencies could outperform CNNs in this context. The code for all machine-learning models used in this thesis is available at \cite{git_models}.
 
 \section{Problem Setup}
 
@@ -218,7 +217,7 @@ The schedule yields a linear increase up to $\alpha=1$ at $x_0$, after which $\a
 % both cnn and vit have enough parameters for this task
 % difference in performance can be interpreted as being caused by model architecture
 
-See the learning curves of all models and datasets plotted in Fig.~\ref{fig:binary:learning_curves}. It can be seen that both the CNN and ViT models start to overfit between 20 and 40 epochs. From this, it can be concluded that both models have enough parameters for this task. Apart from the different learning schedules, differences in performance can be attributed to model architecture only. (Note that, surprisingly, for ViT, the validation loss is in fact smaller than the training loss in the early epochs. This is caused by the unintended final dropout layer, which randomly zeroes the model output with a probability of \SI{10}{\percent}. Since dropout is only applied during training and disabled for inference, the model performs better on the validation dataset.)
+See the learning curves of all models and datasets plotted in Fig.~\ref{fig:binary:learning_curves}. It can be seen that both the CNN and ViT models start to overfit between 20 and 40 epochs. From this, it can be concluded that both models have enough parameters for this task. Apart from the different learning schedules, differences in performance can be attributed to model architecture only. (Note that, surprisingly, for ViT, the validation loss is in fact smaller than the training loss in the early epochs. This is caused by the unintended final dropout layer, which randomly zeroes the model output with a probability of \SI{10}{\percent}. Since dropout is only applied during training and disabled for evaluation, the model performs better on the validation dataset.)
 
 \section{Performance Comparison}
 
