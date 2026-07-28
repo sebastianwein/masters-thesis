@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.17)  27 JUL 2026 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.17)  28 JUL 2026 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1353,13 +1353,19 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'theligoscientificcollaboration2025gwtc40updatin
+ggravitationalwavetransient':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'ET-0007C-20':
 (biblatex)                - Invalid format of field 'month'.
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'cs231n_neural_networks':
-(biblatex)                - Invalid format of field 'urldate'.
+(biblatex)                with 'abac2025scienceeinsteintelescope':
+(biblatex)                - Invalid format of field 'month'.
 
 
 Package biblatex Warning: BibTeX reported the following issues
@@ -1395,6 +1401,11 @@ Package biblatex Warning: BibTeX reported the following issues
 Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'pmlr-v37-ioffe15':
 (biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'tompson2014jointtrainingconvolutionalnetwork':
+(biblatex)                - Can't use 'location' + 'address'.
 
 )
 Package biblatex Info: Reference section=0 on input line 89.
@@ -1818,34 +1829,34 @@ ng/images/transformer/positional_encoding.png>]) [29] [30
 ]
 Chapter 6.
 (./data_simulation/text.tex
-<data_simulation/images/ET-0304B-22/18213_ET10km.png, id=4906, 366.6498pt x 163
+<data_simulation/images/ET-0304B-22/18213_ET10km.png, id=4907, 366.6498pt x 163
 .5711pt>
 File: data_simulation/images/ET-0304B-22/18213_ET10km.png Graphic file (type pn
 g)
 <use data_simulation/images/ET-0304B-22/18213_ET10km.png>
 Package pdftex.def Info: data_simulation/images/ET-0304B-22/18213_ET10km.png  u
-sed on input line 12.
+sed on input line 13.
 (pdftex.def)             Requested size: 369.88582pt x 165.0233pt.
  [31]
-<data_simulation/images/multivariate_normal/multivariate_normal.png, id=4929, 3
+<data_simulation/images/multivariate_normal/multivariate_normal.png, id=4930, 3
 53.1594pt x 130.5678pt>
 File: data_simulation/images/multivariate_normal/multivariate_normal.png Graphi
 c file (type png)
 <use data_simulation/images/multivariate_normal/multivariate_normal.png>
 Package pdftex.def Info: data_simulation/images/multivariate_normal/multivariat
-e_normal.png  used on input line 54.
+e_normal.png  used on input line 55.
 (pdftex.def)             Requested size: 426.79134pt x 157.79025pt.
  [32 <./data_simulation/images/ET-0304B-22/18213_ET10km.png>] [33 <./data_simul
 ation/images/multivariate_normal/multivariate_normal.png>]
-<data_simulation/images/frames/frames_crop.png, id=4954, 2359.81625pt x 2102.85
+<data_simulation/images/frames/frames_crop.png, id=4956, 2359.81625pt x 2102.85
 625pt>
 File: data_simulation/images/frames/frames_crop.png Graphic file (type png)
 <use data_simulation/images/frames/frames_crop.png>
 Package pdftex.def Info: data_simulation/images/frames/frames_crop.png  used on
- input line 107.
+ input line 108.
 (pdftex.def)             Requested size: 284.52756pt x 235.97289pt.
 <data_simulation/images/parameters/Detector-frame-The-two-orthogonal-arms-of-th
-e-interferometer-form-the-x-and-y-axes-in_high_res.png, id=4956, 507.21495pt x 
+e-interferometer-form-the-x-and-y-axes-in_high_res.png, id=4958, 507.21495pt x 
 145.62405pt>
 File: data_simulation/images/parameters/Detector-frame-The-two-orthogonal-arms-
 of-the-interferometer-form-the-x-and-y-axes-in_high_res.png Graphic file (type 
@@ -1854,50 +1865,50 @@ png)
 f-the-interferometer-form-the-x-and-y-axes-in_high_res.png>
 Package pdftex.def Info: data_simulation/images/parameters/Detector-frame-The-t
 wo-orthogonal-arms-of-the-interferometer-form-the-x-and-y-axes-in_high_res.png 
- used on input line 113.
+ used on input line 114.
 (pdftex.def)             Requested size: 512.1496pt x 147.048pt.
  [34] [35 <./data_simulation/images/parameters/Detector-frame-The-two-orthogona
 l-arms-of-the-interferometer-form-the-x-and-y-axes-in_high_res.png> <./data_sim
 ulation/images/frames/frames_crop.png>]
-<data_simulation/images/waveforms/waveform.png, id=4980, 422.5386pt x 112.7412p
+<data_simulation/images/waveforms/waveform.png, id=4982, 422.5386pt x 112.7412p
 t>
 File: data_simulation/images/waveforms/waveform.png Graphic file (type png)
 <use data_simulation/images/waveforms/waveform.png>
 Package pdftex.def Info: data_simulation/images/waveforms/waveform.png  used on
- input line 143.
+ input line 144.
 (pdftex.def)             Requested size: 426.79134pt x 113.87628pt.
-<data_simulation/images/waveforms/projection.png, id=4981, 425.4294pt x 126.954
+<data_simulation/images/waveforms/projection.png, id=4983, 425.4294pt x 126.954
 3pt>
 File: data_simulation/images/waveforms/projection.png Graphic file (type png)
 <use data_simulation/images/waveforms/projection.png>
 Package pdftex.def Info: data_simulation/images/waveforms/projection.png  used 
-on input line 149.
+on input line 150.
 (pdftex.def)             Requested size: 426.79134pt x 127.3666pt.
  [36] [37 <./data_simulation/images/waveforms/waveform.png> <./data_simulation/
 images/waveforms/projection.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 219.
+               Default added (so using `tbp') on input line 220.
 
-<data_simulation/images/poisson/poisson.png, id=5013, 282.3348pt x 169.1118pt>
+<data_simulation/images/poisson/poisson.png, id=5015, 282.3348pt x 169.1118pt>
 File: data_simulation/images/poisson/poisson.png Graphic file (type png)
 <use data_simulation/images/poisson/poisson.png>
 Package pdftex.def Info: data_simulation/images/poisson/poisson.png  used on in
-put line 249.
+put line 250.
 (pdftex.def)             Requested size: 284.52756pt x 170.43771pt.
-<data_simulation/images/waveforms/injection.png, id=5014, 373.6359pt x 223.5552
+<data_simulation/images/waveforms/injection.png, id=5016, 373.6359pt x 223.5552
 pt>
 File: data_simulation/images/waveforms/injection.png Graphic file (type png)
 <use data_simulation/images/waveforms/injection.png>
 Package pdftex.def Info: data_simulation/images/waveforms/injection.png  used o
-n input line 256.
+n input line 257.
 (pdftex.def)             Requested size: 426.79134pt x 255.36383pt.
-<data_simulation/images/waveforms/sample.png, id=5015, 381.3447pt x 207.6558pt>
+<data_simulation/images/waveforms/sample.png, id=5017, 381.3447pt x 207.6558pt>
 
 File: data_simulation/images/waveforms/sample.png Graphic file (type png)
 <use data_simulation/images/waveforms/sample.png>
 Package pdftex.def Info: data_simulation/images/waveforms/sample.png  used on i
-nput line 263.
+nput line 264.
 (pdftex.def)             Requested size: 426.79134pt x 232.4018pt.
 [38] [39 <./data_simulation/images/poisson/poisson.png> <./data_simulation/imag
 es/waveforms/injection.png>] [40 <./data_simulation/images/waveforms/sample.png
@@ -1918,117 +1929,117 @@ Chapter 7.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<machine_learning/images/resnet/custom.pdf, id=5069, 126.12018pt x 402.74565pt>
+<machine_learning/images/resnet/custom.pdf, id=5072, 126.12018pt x 402.74565pt>
 
 File: machine_learning/images/resnet/custom.pdf Graphic file (type pdf)
 <use machine_learning/images/resnet/custom.pdf>
 Package pdftex.def Info: machine_learning/images/resnet/custom.pdf  used on inp
-ut line 94.
+ut line 96.
 (pdftex.def)             Requested size: 113.6199pt x 362.8303pt.
-<machine_learning/images/resnet/resnet18.pdf, id=5070, 126.12018pt x 592.6351pt
+<machine_learning/images/resnet/resnet18.pdf, id=5073, 126.12018pt x 592.6351pt
 >
 File: machine_learning/images/resnet/resnet18.pdf Graphic file (type pdf)
 <use machine_learning/images/resnet/resnet18.pdf>
 Package pdftex.def Info: machine_learning/images/resnet/resnet18.pdf  used on i
-nput line 94.
+nput line 96.
 (pdftex.def)             Requested size: 116.11992pt x 545.64688pt.
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 101.
+e 103.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 101.
+(Font)              scaled to size 12.0pt on input line 103.
  [44] [45 <./machine_learning/images/resnet/custom.pdf> <./machine_learning/ima
 ges/resnet/resnet18.pdf>]
-<binary_classification/images/vit.png, id=5101, 2322.6775pt x 2140.99875pt>
+<binary_classification/images/vit.png, id=5104, 2322.6775pt x 2140.99875pt>
 File: binary_classification/images/vit.png Graphic file (type png)
 <use binary_classification/images/vit.png>
 Package pdftex.def Info: binary_classification/images/vit.png  used on input li
-ne 136.
+ne 138.
 (pdftex.def)             Requested size: 312.9803pt x 288.49966pt.
  [46{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [47 <./binary_classi
 fication/images/vit.png>]
-<binary_classification/plots/learning_curves/curves.png, id=5128, 348.5823pt x 
+<binary_classification/plots/learning_curves/curves.png, id=5131, 348.5823pt x 
 275.8305pt>
 File: binary_classification/plots/learning_curves/curves.png Graphic file (type
  png)
 <use binary_classification/plots/learning_curves/curves.png>
 Package pdftex.def Info: binary_classification/plots/learning_curves/curves.png
-  used on input line 209.
+  used on input line 211.
 (pdftex.def)             Requested size: 341.43306pt x 270.18578pt.
-<binary_classification/plots/comparison/performance.png, id=5130, 225.2415pt x 
+<binary_classification/plots/comparison/performance.png, id=5133, 225.2415pt x 
 140.6856pt>
 File: binary_classification/plots/comparison/performance.png Graphic file (type
  png)
 <use binary_classification/plots/comparison/performance.png>
 Package pdftex.def Info: binary_classification/plots/comparison/performance.png
-  used on input line 227.
+  used on input line 229.
 (pdftex.def)             Requested size: 227.62204pt x 142.17503pt.
-<binary_classification/images/comparison/vram_size.png, id=5131, 225.4824pt x 1
+<binary_classification/images/comparison/vram_size.png, id=5134, 225.4824pt x 1
 40.6856pt>
 File: binary_classification/images/comparison/vram_size.png Graphic file (type 
 png)
 <use binary_classification/images/comparison/vram_size.png>
 Package pdftex.def Info: binary_classification/images/comparison/vram_size.png 
- used on input line 234.
+ used on input line 236.
 (pdftex.def)             Requested size: 227.62204pt x 142.02692pt.
-<binary_classification/plots/auroc.png, id=5135, 196.8153pt x 197.538pt>
+<binary_classification/plots/auroc.png, id=5138, 196.8153pt x 197.538pt>
 File: binary_classification/plots/auroc.png Graphic file (type png)
 <use binary_classification/plots/auroc.png>
 Package pdftex.def Info: binary_classification/plots/auroc.png  used on input l
-ine 267.
+ine 269.
 (pdftex.def)             Requested size: 199.16928pt x 199.90062pt.
  [48] [49 <./binary_classification/plots/learning_curves/curves.png> <./binary_
 classification/plots/comparison/performance.png> <./binary_classification/image
 s/comparison/vram_size.png>]
-<binary_classification/plots/snr.png, id=5153, 225.4824pt x 140.9265pt>
+<binary_classification/plots/snr.png, id=5156, 225.4824pt x 140.9265pt>
 File: binary_classification/plots/snr.png Graphic file (type png)
 <use binary_classification/plots/snr.png>
 Package pdftex.def Info: binary_classification/plots/snr.png  used on input lin
-e 289.
+e 291.
 (pdftex.def)             Requested size: 227.62204pt x 142.27011pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 290.
-<binary_classification/plots/merger_time.png, id=5154, 225.4824pt x 140.9265pt>
+(Font)              scaled to size 10.95pt on input line 292.
+<binary_classification/plots/merger_time.png, id=5157, 225.4824pt x 140.9265pt>
 
 File: binary_classification/plots/merger_time.png Graphic file (type png)
 <use binary_classification/plots/merger_time.png>
 Package pdftex.def Info: binary_classification/plots/merger_time.png  used on i
-nput line 296.
+nput line 298.
 (pdftex.def)             Requested size: 227.62204pt x 142.27011pt.
-<binary_classification/plots/mass.png, id=5155, 225.4824pt x 195.8517pt>
+<binary_classification/plots/mass.png, id=5158, 225.4824pt x 195.8517pt>
 File: binary_classification/plots/mass.png Graphic file (type png)
 <use binary_classification/plots/mass.png>
 Package pdftex.def Info: binary_classification/plots/mass.png  used on input li
-ne 302.
+ne 304.
 (pdftex.def)             Requested size: 227.62204pt x 197.719pt.
-<binary_classification/plots/spins.png, id=5156, 224.037pt x 193.6836pt>
+<binary_classification/plots/spins.png, id=5159, 224.037pt x 193.6836pt>
 File: binary_classification/plots/spins.png Graphic file (type png)
 <use binary_classification/plots/spins.png>
 Package pdftex.def Info: binary_classification/plots/spins.png  used on input l
-ine 309.
+ine 311.
 (pdftex.def)             Requested size: 227.62204pt x 196.78624pt.
  [50] [51 <./binary_classification/plots/auroc.png> <./binary_classification/pl
 ots/snr.png> <./binary_classification/plots/merger_time.png> <./binary_classifi
 cation/plots/mass.png> <./binary_classification/plots/spins.png>]
-<binary_classification/images/parameters/waveforms.png, id=5177, 397.9668pt x 2
+<binary_classification/images/parameters/waveforms.png, id=5180, 397.9668pt x 2
 25.7233pt>
 File: binary_classification/images/parameters/waveforms.png Graphic file (type 
 png)
 <use binary_classification/images/parameters/waveforms.png>
 Package pdftex.def Info: binary_classification/images/parameters/waveforms.png 
- used on input line 346.
+ used on input line 348.
 (pdftex.def)             Requested size: 455.24408pt x 258.22617pt.
  [52]
-<binary_classification/plots/attention/attention.png, id=5188, 404.2302pt x 238
+<binary_classification/plots/attention/attention.png, id=5191, 404.2302pt x 238
 .491pt>
 File: binary_classification/plots/attention/attention.png Graphic file (type pn
 g)
 <use binary_classification/plots/attention/attention.png>
 Package pdftex.def Info: binary_classification/plots/attention/attention.png  u
-sed on input line 386.
+sed on input line 388.
 (pdftex.def)             Requested size: 455.24408pt x 268.59282pt.
  [53 <./binary_classification/images/parameters/waveforms.png>]) [54 <./binary_
 classification/plots/attention/attention.png>]
@@ -2043,14 +2054,14 @@ Underfull \vbox (badness 1067) has occurred while \output is active []
 pdfTeX warning: /usr/bin/pdflatex (file ./multiple_signal_detection/images/heat
 map.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<multiple_signal_detection/images/heatmap.pdf, id=5226, 711.91342pt x 375.11pt>
+<multiple_signal_detection/images/heatmap.pdf, id=5229, 711.91342pt x 375.11pt>
 
 File: multiple_signal_detection/images/heatmap.pdf Graphic file (type pdf)
 <use multiple_signal_detection/images/heatmap.pdf>
 Package pdftex.def Info: multiple_signal_detection/images/heatmap.pdf  used on 
 input line 76.
 (pdftex.def)             Requested size: 426.79134pt x 224.87885pt.
-<multiple_signal_detection/images/heatmap/sample.png, id=5232, 366.8907pt x 216
+<multiple_signal_detection/images/heatmap/sample.png, id=5235, 366.8907pt x 216
 .5691pt>
 File: multiple_signal_detection/images/heatmap/sample.png Graphic file (type pn
 g)
@@ -2060,14 +2071,14 @@ sed on input line 99.
 (pdftex.def)             Requested size: 426.79134pt x 251.93742pt.
 [57] [58 <./multiple_signal_detection/images/heatmap.pdf> <./multiple_signal_de
 tection/images/heatmap/sample.png>]
-<multiple_signal_detection/images/heatmap_CNN.png, id=5264, 1661.20625pt x 1340
+<multiple_signal_detection/images/heatmap_CNN.png, id=5267, 1661.20625pt x 1340
 .00626pt>
 File: multiple_signal_detection/images/heatmap_CNN.png Graphic file (type png)
 <use multiple_signal_detection/images/heatmap_CNN.png>
 Package pdftex.def Info: multiple_signal_detection/images/heatmap_CNN.png  used
  on input line 155.
 (pdftex.def)             Requested size: 213.39566pt x 172.12135pt.
-<multiple_signal_detection/images/heatmap_transformer.png, id=5265, 1666.225pt 
+<multiple_signal_detection/images/heatmap_transformer.png, id=5268, 1666.225pt 
 x 2343.75626pt>
 File: multiple_signal_detection/images/heatmap_transformer.png Graphic file (ty
 pe png)
@@ -2075,7 +2086,7 @@ pe png)
 Package pdftex.def Info: multiple_signal_detection/images/heatmap_transformer.p
 ng  used on input line 155.
 (pdftex.def)             Requested size: 213.39566pt x 300.15714pt.
-<multiple_signal_detection/plots/learning_curves/cnn_loss.png, id=5271, 222.591
+<multiple_signal_detection/plots/learning_curves/cnn_loss.png, id=5274, 222.591
 6pt x 177.5433pt>
 File: multiple_signal_detection/plots/learning_curves/cnn_loss.png Graphic file
  (type png)
@@ -2083,7 +2094,7 @@ File: multiple_signal_detection/plots/learning_curves/cnn_loss.png Graphic file
 Package pdftex.def Info: multiple_signal_detection/plots/learning_curves/cnn_lo
 ss.png  used on input line 206.
 (pdftex.def)             Requested size: 227.62204pt x 181.56584pt.
-<multiple_signal_detection/plots/learning_curves/encoder_loss.png, id=5272, 222
+<multiple_signal_detection/plots/learning_curves/encoder_loss.png, id=5275, 222
 .5916pt x 177.5433pt>
 File: multiple_signal_detection/plots/learning_curves/encoder_loss.png Graphic 
 file (type png)
@@ -2091,7 +2102,7 @@ file (type png)
 Package pdftex.def Info: multiple_signal_detection/plots/learning_curves/encode
 r_loss.png  used on input line 206.
 (pdftex.def)             Requested size: 227.62204pt x 181.56584pt.
-<multiple_signal_detection/plots/out/300/encoder/11.png, id=5274, 426.6339pt x 
+<multiple_signal_detection/plots/out/300/encoder/11.png, id=5277, 426.6339pt x 
 142.131pt>
 File: multiple_signal_detection/plots/out/300/encoder/11.png Graphic file (type
  png)
@@ -2099,7 +2110,7 @@ File: multiple_signal_detection/plots/out/300/encoder/11.png Graphic file (type
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/encoder/11.png
   used on input line 224.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/encoder/1.png, id=5276, 426.6339pt x 1
+<multiple_signal_detection/plots/out/300/encoder/1.png, id=5279, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/out/300/encoder/1.png Graphic file (type 
 png)
@@ -2107,7 +2118,7 @@ png)
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/encoder/1.png 
  used on input line 229.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/encoder/3.png, id=5278, 426.6339pt x 1
+<multiple_signal_detection/plots/out/300/encoder/3.png, id=5281, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/out/300/encoder/3.png Graphic file (type 
 png)
@@ -2115,7 +2126,7 @@ png)
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/encoder/3.png 
  used on input line 234.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/encoder/0.png, id=5280, 426.6339pt x 1
+<multiple_signal_detection/plots/out/300/encoder/0.png, id=5283, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/out/300/encoder/0.png Graphic file (type 
 png)
@@ -2123,7 +2134,7 @@ png)
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/encoder/0.png 
  used on input line 239.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/encoder/8.png, id=5282, 426.6339pt x 1
+<multiple_signal_detection/plots/out/300/encoder/8.png, id=5285, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/out/300/encoder/8.png Graphic file (type 
 png)
@@ -2135,7 +2146,7 @@ Package pdftex.def Info: multiple_signal_detection/plots/out/300/encoder/8.png
 al_detection/images/heatmap_transformer.png> <./multiple_signal_detection/plots
 /learning_curves/cnn_loss.png> <./multiple_signal_detection/plots/learning_curv
 es/encoder_loss.png>]
-<multiple_signal_detection/plots/cnn_encoder_far.png, id=5301, 253.9086pt x 250
+<multiple_signal_detection/plots/cnn_encoder_far.png, id=5304, 253.9086pt x 250
 .2951pt>
 File: multiple_signal_detection/plots/cnn_encoder_far.png Graphic file (type pn
 g)
@@ -2147,7 +2158,7 @@ sed on input line 256.
 _signal_detection/plots/out/300/encoder/11.png> <./multiple_signal_detection/pl
 ots/out/300/encoder/1.png> <./multiple_signal_detection/plots/out/300/encoder/3
 .png> <./multiple_signal_detection/plots/out/300/encoder/0.png>]
-<multiple_signal_detection/plots/cnn_encoder_mergers.png, id=5332, 339.1872pt x
+<multiple_signal_detection/plots/cnn_encoder_mergers.png, id=5335, 339.1872pt x
  169.1118pt>
 File: multiple_signal_detection/plots/cnn_encoder_mergers.png Graphic file (typ
 e png)
@@ -2155,7 +2166,7 @@ e png)
 Package pdftex.def Info: multiple_signal_detection/plots/cnn_encoder_mergers.pn
 g  used on input line 280.
 (pdftex.def)             Requested size: 341.43306pt x 170.24417pt.
-<multiple_signal_detection/plots/weights/encoder/11.png, id=5336, 426.6339pt x 
+<multiple_signal_detection/plots/weights/encoder/11.png, id=5339, 426.6339pt x 
 142.131pt>
 File: multiple_signal_detection/plots/weights/encoder/11.png Graphic file (type
  png)
@@ -2163,7 +2174,7 @@ File: multiple_signal_detection/plots/weights/encoder/11.png Graphic file (type
 Package pdftex.def Info: multiple_signal_detection/plots/weights/encoder/11.png
   used on input line 306.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/weights/encoder/1.png, id=5338, 426.6339pt x 1
+<multiple_signal_detection/plots/weights/encoder/1.png, id=5341, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/weights/encoder/1.png Graphic file (type 
 png)
@@ -2171,7 +2182,7 @@ png)
 Package pdftex.def Info: multiple_signal_detection/plots/weights/encoder/1.png 
  used on input line 311.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/weights/encoder/3.png, id=5340, 426.6339pt x 1
+<multiple_signal_detection/plots/weights/encoder/3.png, id=5343, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/weights/encoder/3.png Graphic file (type 
 png)
@@ -2179,7 +2190,7 @@ png)
 Package pdftex.def Info: multiple_signal_detection/plots/weights/encoder/3.png 
  used on input line 316.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/weights/encoder/0.png, id=5342, 426.6339pt x 1
+<multiple_signal_detection/plots/weights/encoder/0.png, id=5345, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/weights/encoder/0.png Graphic file (type 
 png)
@@ -2187,7 +2198,7 @@ png)
 Package pdftex.def Info: multiple_signal_detection/plots/weights/encoder/0.png 
  used on input line 321.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/weights/encoder/8.png, id=5344, 426.6339pt x 1
+<multiple_signal_detection/plots/weights/encoder/8.png, id=5347, 426.6339pt x 1
 42.131pt>
 File: multiple_signal_detection/plots/weights/encoder/8.png Graphic file (type 
 png)
@@ -2196,7 +2207,7 @@ Package pdftex.def Info: multiple_signal_detection/plots/weights/encoder/8.png
  used on input line 324.
 (pdftex.def)             Requested size: 426.79134pt x 142.18484pt.
  [63 <./multiple_signal_detection/plots/cnn_encoder_far.png>]
-<multiple_signal_detection/plots/cnn_encoder_deltat.png, id=5353, 339.1872pt x 
+<multiple_signal_detection/plots/cnn_encoder_deltat.png, id=5356, 339.1872pt x 
 169.1118pt>
 File: multiple_signal_detection/plots/cnn_encoder_deltat.png Graphic file (type
  png)
@@ -2210,7 +2221,7 @@ lots/weights/encoder/11.png> <./multiple_signal_detection/plots/weights/encoder
 /1.png> <./multiple_signal_detection/plots/weights/encoder/3.png> <./multiple_s
 ignal_detection/plots/weights/encoder/0.png>]
 <multiple_signal_detection/images/delta_tc_stacked_FAR_labels_switched.png, id=
-5376, 3322.4125pt x 2213.26875pt>
+5379, 3322.4125pt x 2213.26875pt>
 File: multiple_signal_detection/images/delta_tc_stacked_FAR_labels_switched.png
  Graphic file (type png)
 <use multiple_signal_detection/images/delta_tc_stacked_FAR_labels_switched.png>
@@ -2218,7 +2229,7 @@ File: multiple_signal_detection/images/delta_tc_stacked_FAR_labels_switched.png
 Package pdftex.def Info: multiple_signal_detection/images/delta_tc_stacked_FAR_
 labels_switched.png  used on input line 369.
 (pdftex.def)             Requested size: 284.52756pt x 189.52689pt.
-<multiple_signal_detection/plots/encoder_stacked.png, id=5383, 309.5565pt x 169
+<multiple_signal_detection/plots/encoder_stacked.png, id=5386, 309.5565pt x 169
 .3527pt>
 File: multiple_signal_detection/plots/encoder_stacked.png Graphic file (type pn
 g)
@@ -2226,7 +2237,7 @@ g)
 Package pdftex.def Info: multiple_signal_detection/plots/encoder_stacked.png  u
 sed on input line 379.
 (pdftex.def)             Requested size: 312.9803pt x 171.23868pt.
-<multiple_signal_detection/plots/out/700/encoder/0_zoom.png, id=5388, 198.9834p
+<multiple_signal_detection/plots/out/700/encoder/0_zoom.png, id=5391, 198.9834p
 t x 142.131pt>
 File: multiple_signal_detection/plots/out/700/encoder/0_zoom.png Graphic file (
 type png)
@@ -2234,7 +2245,7 @@ type png)
 Package pdftex.def Info: multiple_signal_detection/plots/out/700/encoder/0_zoom
 .png  used on input line 405.
 (pdftex.def)             Requested size: 199.17418pt x 142.26378pt.
-<multiple_signal_detection/plots/out/800/encoder/7_zoom.png, id=5390, 198.9834p
+<multiple_signal_detection/plots/out/800/encoder/7_zoom.png, id=5393, 198.9834p
 t x 142.131pt>
 File: multiple_signal_detection/plots/out/800/encoder/7_zoom.png Graphic file (
 type png)
@@ -2242,7 +2253,7 @@ type png)
 Package pdftex.def Info: multiple_signal_detection/plots/out/800/encoder/7_zoom
 .png  used on input line 405.
 (pdftex.def)             Requested size: 164.99825pt x 142.26378pt.
-<multiple_signal_detection/plots/out/900/encoder/6_zoom.png, id=5392, 198.9834p
+<multiple_signal_detection/plots/out/900/encoder/6_zoom.png, id=5395, 198.9834p
 t x 142.131pt>
 File: multiple_signal_detection/plots/out/900/encoder/6_zoom.png Graphic file (
 type png)
@@ -2261,7 +2272,7 @@ _signal_detection/plots/encoder_stacked.png> <./multiple_signal_detection/plots
 68]
 Chapter 9.
 (./multiple_signal_detection/detr.tex
-<multiple_signal_detection/images/DETR_detail_seagulls.pdf, id=5423, 721.69624p
+<multiple_signal_detection/images/DETR_detail_seagulls.pdf, id=5426, 721.69624p
 t x 182.6825pt>
 File: multiple_signal_detection/images/DETR_detail_seagulls.pdf Graphic file (t
 ype pdf)
@@ -2269,7 +2280,7 @@ ype pdf)
 Package pdftex.def Info: multiple_signal_detection/images/DETR_detail_seagulls.
 pdf  used on input line 18.
 (pdftex.def)             Requested size: 455.24408pt x 115.23552pt.
-<multiple_signal_detection/images/transformer.pdf, id=5426, 337.00906pt x 336.1
+<multiple_signal_detection/images/transformer.pdf, id=5429, 337.00906pt x 336.1
 9502pt>
 File: multiple_signal_detection/images/transformer.pdf Graphic file (type pdf)
 <use multiple_signal_detection/images/transformer.pdf>
@@ -2283,7 +2294,7 @@ Underfull \vbox (badness 1509) has occurred while \output is active []
 
  <./multiple_signal_detection/images/DETR_detail_seagulls.pdf>] [70 <./multiple
 _signal_detection/images/transformer.pdf>]
-<multiple_signal_detection/plots/learning_curves/detr_loss.png, id=5501, 222.59
+<multiple_signal_detection/plots/learning_curves/detr_loss.png, id=5504, 222.59
 16pt x 177.5433pt>
 File: multiple_signal_detection/plots/learning_curves/detr_loss.png Graphic fil
 e (type png)
@@ -2291,7 +2302,7 @@ e (type png)
 Package pdftex.def Info: multiple_signal_detection/plots/learning_curves/detr_l
 oss.png  used on input line 85.
 (pdftex.def)             Requested size: 227.62204pt x 181.56584pt.
-<multiple_signal_detection/plots/learning_curves/detr_bce_loss.png, id=5502, 24
+<multiple_signal_detection/plots/learning_curves/detr_bce_loss.png, id=5505, 24
 1.6227pt x 155.6214pt>
 File: multiple_signal_detection/plots/learning_curves/detr_bce_loss.png Graphic
  file (type png)
@@ -2299,7 +2310,7 @@ File: multiple_signal_detection/plots/learning_curves/detr_bce_loss.png Graphic
 Package pdftex.def Info: multiple_signal_detection/plots/learning_curves/detr_b
 ce_loss.png  used on input line 94.
 (pdftex.def)             Requested size: 227.62204pt x 146.60944pt.
-<multiple_signal_detection/plots/learning_curves/detr_l1_loss.png, id=5503, 228
+<multiple_signal_detection/plots/learning_curves/detr_l1_loss.png, id=5506, 228
 .855pt x 155.6214pt>
 File: multiple_signal_detection/plots/learning_curves/detr_l1_loss.png Graphic 
 file (type png)
@@ -2310,7 +2321,7 @@ Package pdftex.def Info: multiple_signal_detection/plots/learning_curves/detr_l
  [71] [72 <./multiple_signal_detection/plots/learning_curves/detr_loss.png> <./
 multiple_signal_detection/plots/learning_curves/detr_bce_loss.png> <./multiple_
 signal_detection/plots/learning_curves/detr_l1_loss.png>]
-<multiple_signal_detection/plots/out/300/detr/11.png, id=5528, 426.6339pt x 142
+<multiple_signal_detection/plots/out/300/detr/11.png, id=5531, 426.6339pt x 142
 .131pt>
 File: multiple_signal_detection/plots/out/300/detr/11.png Graphic file (type pn
 g)
@@ -2318,7 +2329,7 @@ g)
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/detr/11.png  u
 sed on input line 183.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/detr/1.png, id=5530, 426.6339pt x 142.
+<multiple_signal_detection/plots/out/300/detr/1.png, id=5533, 426.6339pt x 142.
 131pt>
 File: multiple_signal_detection/plots/out/300/detr/1.png Graphic file (type png
 )
@@ -2326,7 +2337,7 @@ File: multiple_signal_detection/plots/out/300/detr/1.png Graphic file (type png
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/detr/1.png  us
 ed on input line 188.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/detr/3.png, id=5532, 426.6339pt x 142.
+<multiple_signal_detection/plots/out/300/detr/3.png, id=5535, 426.6339pt x 142.
 131pt>
 File: multiple_signal_detection/plots/out/300/detr/3.png Graphic file (type png
 )
@@ -2334,7 +2345,7 @@ File: multiple_signal_detection/plots/out/300/detr/3.png Graphic file (type png
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/detr/3.png  us
 ed on input line 193.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/detr/0.png, id=5534, 426.6339pt x 142.
+<multiple_signal_detection/plots/out/300/detr/0.png, id=5537, 426.6339pt x 142.
 131pt>
 File: multiple_signal_detection/plots/out/300/detr/0.png Graphic file (type png
 )
@@ -2342,7 +2353,7 @@ File: multiple_signal_detection/plots/out/300/detr/0.png Graphic file (type png
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/detr/0.png  us
 ed on input line 198.
 (pdftex.def)             Requested size: 426.79134pt x 113.72131pt.
-<multiple_signal_detection/plots/out/300/detr/8.png, id=5536, 426.6339pt x 142.
+<multiple_signal_detection/plots/out/300/detr/8.png, id=5539, 426.6339pt x 142.
 131pt>
 File: multiple_signal_detection/plots/out/300/detr/8.png Graphic file (type png
 )
@@ -2350,7 +2361,7 @@ File: multiple_signal_detection/plots/out/300/detr/8.png Graphic file (type png
 Package pdftex.def Info: multiple_signal_detection/plots/out/300/detr/8.png  us
 ed on input line 201.
 (pdftex.def)             Requested size: 426.79134pt x 142.18484pt.
-<multiple_signal_detection/plots/cnn_encoder_detr_far.png, id=5542, 253.9086pt 
+<multiple_signal_detection/plots/cnn_encoder_detr_far.png, id=5545, 253.9086pt 
 x 250.2951pt>
 File: multiple_signal_detection/plots/cnn_encoder_detr_far.png Graphic file (ty
 pe png)
@@ -2358,7 +2369,7 @@ pe png)
 Package pdftex.def Info: multiple_signal_detection/plots/cnn_encoder_detr_far.p
 ng  used on input line 221.
 (pdftex.def)             Requested size: 256.0748pt x 252.4294pt.
-<multiple_signal_detection/plots/cnn_encoder_detr_mergers.png, id=5544, 339.187
+<multiple_signal_detection/plots/cnn_encoder_detr_mergers.png, id=5547, 339.187
 2pt x 169.1118pt>
 File: multiple_signal_detection/plots/cnn_encoder_detr_mergers.png Graphic file
  (type png)
@@ -2366,14 +2377,14 @@ File: multiple_signal_detection/plots/cnn_encoder_detr_mergers.png Graphic file
 Package pdftex.def Info: multiple_signal_detection/plots/cnn_encoder_detr_merge
 rs.png  used on input line 241.
 (pdftex.def)             Requested size: 341.43306pt x 170.24417pt.
-<multiple_signal_detection/plots/detr_time.png, id=5546, 282.3348pt x 194.8881p
+<multiple_signal_detection/plots/detr_time.png, id=5549, 282.3348pt x 194.8881p
 t>
 File: multiple_signal_detection/plots/detr_time.png Graphic file (type png)
 <use multiple_signal_detection/plots/detr_time.png>
 Package pdftex.def Info: multiple_signal_detection/plots/detr_time.png  used on
  input line 257.
 (pdftex.def)             Requested size: 227.62204pt x 157.12398pt.
-<multiple_signal_detection/plots/encoder_time.png, id=5547, 282.3348pt x 194.88
+<multiple_signal_detection/plots/encoder_time.png, id=5550, 282.3348pt x 194.88
 81pt>
 File: multiple_signal_detection/plots/encoder_time.png Graphic file (type png)
 <use multiple_signal_detection/plots/encoder_time.png>
@@ -2386,7 +2397,7 @@ t/300/detr/1.png> <./multiple_signal_detection/plots/out/300/detr/3.png> <./mul
 tiple_signal_detection/plots/out/300/detr/0.png>] [75 <./multiple_signal_detect
 ion/plots/cnn_encoder_detr_far.png> <./multiple_signal_detection/plots/cnn_enco
 der_detr_mergers.png>]
-<multiple_signal_detection/plots/encoder_detr_deltat.png, id=5577, 339.1872pt x
+<multiple_signal_detection/plots/encoder_detr_deltat.png, id=5580, 339.1872pt x
  169.1118pt>
 File: multiple_signal_detection/plots/encoder_detr_deltat.png Graphic file (typ
 e png)
@@ -2394,7 +2405,7 @@ e png)
 Package pdftex.def Info: multiple_signal_detection/plots/encoder_detr_deltat.pn
 g  used on input line 281.
 (pdftex.def)             Requested size: 341.43306pt x 170.24417pt.
-<multiple_signal_detection/plots/detr_stacked.png, id=5581, 309.5565pt x 169.35
+<multiple_signal_detection/plots/detr_stacked.png, id=5584, 309.5565pt x 169.35
 27pt>
 File: multiple_signal_detection/plots/detr_stacked.png Graphic file (type png)
 <use multiple_signal_detection/plots/detr_stacked.png>
@@ -2407,7 +2418,7 @@ g)
 Package pdftex.def Info: multiple_signal_detection/plots/encoder_stacked.png  u
 sed on input line 314.
 (pdftex.def)             Requested size: 274.77563pt x 170.71652pt.
-<multiple_signal_detection/plots/out/700/detr/0_zoom.png, id=5584, 198.9834pt x
+<multiple_signal_detection/plots/out/700/detr/0_zoom.png, id=5587, 198.9834pt x
  142.131pt>
 File: multiple_signal_detection/plots/out/700/detr/0_zoom.png Graphic file (typ
 e png)
@@ -2415,7 +2426,7 @@ e png)
 Package pdftex.def Info: multiple_signal_detection/plots/out/700/detr/0_zoom.pn
 g  used on input line 337.
 (pdftex.def)             Requested size: 199.17418pt x 142.26378pt.
-<multiple_signal_detection/plots/out/800/detr/7_zoom.png, id=5586, 198.9834pt x
+<multiple_signal_detection/plots/out/800/detr/7_zoom.png, id=5589, 198.9834pt x
  142.131pt>
 File: multiple_signal_detection/plots/out/800/detr/7_zoom.png Graphic file (typ
 e png)
@@ -2423,7 +2434,7 @@ e png)
 Package pdftex.def Info: multiple_signal_detection/plots/out/800/detr/7_zoom.pn
 g  used on input line 337.
 (pdftex.def)             Requested size: 160.72598pt x 142.26378pt.
-<multiple_signal_detection/plots/out/900/detr/6_zoom.png, id=5588, 198.9834pt x
+<multiple_signal_detection/plots/out/900/detr/6_zoom.png, id=5591, 198.9834pt x
  142.131pt>
 File: multiple_signal_detection/plots/out/900/detr/6_zoom.png Graphic file (typ
 e png)
@@ -2467,7 +2478,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 ]
 Appendix A.
 <theory_of_gravitational_waves/images/spherical_harmonics/spherical_harmonics.p
-ng, id=5755, 337.7418pt x 143.0946pt>
+ng, id=5747, 337.7418pt x 143.0946pt>
 File: theory_of_gravitational_waves/images/spherical_harmonics/spherical_harmon
 ics.png Graphic file (type png)
 <use theory_of_gravitational_waves/images/spherical_harmonics/spherical_harmoni
@@ -2507,11 +2518,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36047 strings out of 476106
- 726393 string characters out of 5793933
- 3168236 words of memory out of 5000000
- 56938 multiletter control sequences out of 15000+600000
- 688921 words of font info for 337 fonts, out of 8000000 for 9000
+ 36069 strings out of 476106
+ 726747 string characters out of 5793933
+ 3177008 words of memory out of 5000000
+ 56952 multiletter control sequences out of 15000+600000
+ 689197 words of font info for 340 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  75i,18n,102p,1875b,2061s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb></us
@@ -2530,10 +2541,10 @@ lic/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 re/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (94 pages, 17685956 bytes).
+Output written on main.pdf (94 pages, 17687862 bytes).
 PDF statistics:
- 5936 PDF objects out of 6186 (max. 8388607)
- 3973 compressed objects within 40 object streams
- 386 named destinations out of 1000 (max. 500000)
+ 5928 PDF objects out of 6186 (max. 8388607)
+ 3965 compressed objects within 40 object streams
+ 388 named destinations out of 1000 (max. 500000)
  47585 words of extra memory for PDF output out of 51595 (max. 10000000)
 

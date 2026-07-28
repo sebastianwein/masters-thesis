@@ -11,7 +11,9 @@ As previously mentioned, the task of detecting long-duration overlapping signals
 % Try transformer architecture because it captures long range dependencies
 % Image processing -> ViT
 
-To this end, multiple datasets with increasing sample lengths are simulated. For the purposes of this study, every sample contains only one signal at most. The problem of detecting multiple signals per sample is dealt with in the next chapter. This study compares a CNN, the \emph{de facto} standard approach, and a transformer model when handling large inputs. Although \cite{Papalini_2025} motivates the use of transformers for overlapping signals primarily, the transformer's ability to capture long-range dependencies could outperform CNNs in this context.
+To this end, multiple datasets with increasing sample lengths are simulated. For the purposes of this study, every sample contains only one signal at most. The problem of detecting multiple signals per sample is dealt with in the next chapter. This study compares a CNN, the \emph{de facto} standard approach, and a transformer model when handling large inputs. The code for all models used in this thesis is available at \cite{git_models}.
+
+% Although \cite{Papalini_2025} motivates the use of transformers for overlapping signals primarily, the transformer's ability to capture long-range dependencies could outperform CNNs in this context. 
 
 \section{Problem Setup}
 
@@ -19,7 +21,7 @@ To this end, multiple datasets with increasing sample lengths are simulated. For
 % up to one signal per sample with random coalescence time
 
 % Emphasize that this does not amount to a proper search, where we want to to identify the temporal location of potential signals in time series data of arbitrary length or in streaming data
-A final sample length of \SI{64}{\second} is aimed for. With a sampling rate of \SI{2048}{\hertz}, and for three ET detectors, that means an input size of $3\times\SI{2048}{\hertz}\times\SI{64}{\second} = \SI{393}{\kilo\nothing}$. Compare this to standard image-classification models such as ResNets \cite{DBLP:journals/corr/HeZRS15}, which handle input sizes of $3\times224\times224=\SI{150}{\kilo\nothing}$.
+A final sample length of \SI{64}{\second} is aimed for. With a sampling rate of \SI{2048}{\hertz}, and for three ET detectors, that means an input size of $3\times\SI{2048}{\hertz}\times\SI{64}{\second} = \SI{393}{\kilo\nothing}$. Compare this to standard image-classification models such as ResNets \cite{he2016residual}, which handle input sizes of $3\times224\times224=\SI{150}{\kilo\nothing}$.
 
 This study considers datasets with sample lengths of \SI{2}{\second}, \SI{4}{\second}, \SI{8}{\second}, \SI{16}{\second}, \SI{32}{\second}, and \SI{64}{\second}. Each sample contains one signal at most, and these signals are injected uniformly over the whole sample length.
 The task is treated as a binary classification problem: Noise samples are labeled $0$, and injection samples $1$. The datasets are even, \emph{i.e.}, half of the samples are positive and the other half negative. Training datasets have \SI{1}{\mega\nothing} samples each, and the test datasets \SI{131}{\kilo\nothing}. Both datasets are simulated in the same manner.
@@ -73,7 +75,7 @@ This metric returns \SI{100}{\percent} if the classifier is perfect, while a ran
 % 700k parameters
 % number of parameters does not increase with input size 
 
-This work employs a CNN that is modeled after the \emph{ResNet} architecture \cite{DBLP:journals/corr/HeZRS15}. ResNets improve the traditional CNN recipe by the first introduction of residual connections. These have later also been adapted in transformers (see Ch.~\ref{sec:machine_learning:transformers}). Such connections ease the training of deep CNNs by allowing the redundant layers to act as identity maps. 
+This work employs a CNN that is modeled after the \emph{ResNet} architecture \cite{he2016residual}. ResNets improve the traditional CNN recipe by the first introduction of residual connections. These have later also been adapted in transformers (see Ch.~\ref{sec:machine_learning:transformers}). Such connections ease the training of deep CNNs by allowing the redundant layers to act as identity maps. 
 
 Each convolutional block employs batch normalization~\cite{pmlr-v37-ioffe15} and uses the standard ReLU activation,
 \begin{equation}
@@ -92,7 +94,7 @@ If the dimensions match, \emph{i.e.}, the convolutional blocks have stride one a
 		\includegraphics[width=116.11992pt]{machine_learning/images/resnet/resnet18}
 		% \includegraphics[width=116.11992pt]{machine_learning/images/resnet/resnet34}
 	}
-	\caption{The custom ResNet architecture that is employed in this work (\emph{left}) and ResNet18~\cite{DBLP:journals/corr/HeZRS15} (\emph{right}). One convolutional block is denoted \enquote{kernel size} conv, \enquote{out channels}, /\enquote{stride}. Skip connections are drawn as arrows. These are dashed if the dimensions do not match.}
+	\caption{The custom ResNet architecture that is employed in this work (\emph{left}) and ResNet18~\cite{he2016residual} (\emph{right}). One convolutional block is denoted \enquote{kernel size} conv, \enquote{out channels}, /\enquote{stride}. Skip connections are drawn as arrows. These are dashed if the dimensions do not match.}
 	\label{fig:binary:resnet}
 \end{figure}
 
@@ -138,15 +140,15 @@ Note that the model's number of parameters is independent of the input size. Thi
 	\label{fig:binary:cnn_plus_vit}
 \end{figure}
 
-The transformer model, on the other hand, is implemented similarly to the \emph{Vision Transformer} (ViT) \cite{DBLP:journals/corr/abs-2010-11929}, which was originally developed for image classification. The model makes use of the transformer encoder only, which takes as input a number of tokens which are somehow obtained from the input data. The ViT architecture appends an extra learnable \emph{classification token}. This token can attend to the input sequence through the transformer's attention mechanism and its output is read out via a classification head to yield a single class score. See a schematic of the architecture in Fig.~\ref{fig:binary:cnn_plus_vit}.
+The transformer model, on the other hand, is implemented similarly to the \emph{Vision Transformer} (ViT) \cite{dosovitskiy2021an}, which was originally developed for image classification. The model makes use of the transformer encoder only, which takes as input a number of tokens which are somehow obtained from the input data. The ViT architecture appends an extra learnable \emph{classification token}. This token can attend to the input sequence through the transformer's attention mechanism and its output is read out via a classification head to yield a single class score. See a schematic of the architecture in Fig.~\ref{fig:binary:cnn_plus_vit}.
 
-In NLP, sentences can be straightforwardly tokenized into single words. For other sequential data, appropriate tokenization is less obvious, and there are multiple ways to achieve it. The original ViT model tokenizes 2D images, by splitting them into patches and projecting these onto the desired embedding dimension. For GW data, initial tests showed that this tokenization scheme is too primitive, and results in bad performance. Instead, this work opts for a hybrid approach, where a full CNN serves as the tokenizer. This is outlined in \cite{DBLP:journals/corr/abs-2010-11929} as well, and a similar approach is implemented for transformer based parameter estimation of overlapping signals \cite{Papalini_2025}.
+In NLP, sentences can be straightforwardly tokenized into single words. For other sequential data, appropriate tokenization is less obvious, and there are multiple ways to achieve it. The original ViT model tokenizes 2D images, by splitting them into patches and projecting these onto the desired embedding dimension. For GW data, initial tests showed that this tokenization scheme is too primitive, and results in bad performance. Instead, this work opts for a hybrid approach, where a full CNN serves as the tokenizer. This is outlined in \cite{dosovitskiy2021an} as well, and a similar approach is implemented for transformer based parameter estimation of overlapping signals \cite{Papalini_2025}.
 For this CNN tokenizer, the same ResNet model which is described above is employed without average pooling and the classification head. 
 For the largest considered input size, this yields $512$ tokens with $256$ channels. 
 The resulting tokens represent the input time series in a time-ordered manner, downsampled by a factor of $256$. Each token carries the information of $\approx\SI{1}{\second}$ of data, corresponding to the CNN receptive field size.
 A convolution operation with kernel size one reduces the number of channels to the desired embedding dimension $d_\text{embed}=64$.
 
-The classification token is a vector of the same dimension, consisting of learnable parameters. These are initialized randomly. Following \cite{DBLP:journals/corr/abs-2010-11929}, instead of fixed sinusoidal positional encodings, learned position embeddings are added to the input tokens. These are initialized randomly.
+The classification token is a vector of the same dimension, consisting of learnable parameters. These are initialized randomly. Following \cite{dosovitskiy2021an}, instead of fixed sinusoidal positional encodings, learned position embeddings are added to the input tokens. These are initialized randomly.
 The transformer encoder comprises four layers, the attention blocks have eight heads each, and the dense networks' hidden dimension is of size $1024$. The final classification head reads, 
 %\begin{equation}
 %	z = \text{Dropout}(\text{Linear}_{1024\rightarrow1}(\text{ReLU}(\text{Dropout}(\text{Linear}_{64\rightarrow1024}(\text{LayerNorm}(x)))))),
@@ -159,7 +161,7 @@ The transformer encoder comprises four layers, the attention blocks have eight h
 \end{aligned}
 \end{equation}
 which is passed through a sigmoid activation later.
-The model employs a dropout probability of \SI{10}{\percent}. (The author of this thesis notes that the classification head's final dropout layer is unusual and was added by mistake.) The total model size is \SI{1.7}{\mega\nothing} learnable parameters. Apart from the learned embeddings, this is again independent of the input size.
+The model employs a dropout probability of \SI{10}{\percent}. (It should be noted that adding a final dropout layer to the classification head is uncommon and unintentional. The results will show that this does not hinder performance, although it leads to unusual learning curves.) The total model size is \SI{1.7}{\mega\nothing} learnable parameters. Apart from the learned embeddings, this is again independent of the input size.
 
 \section{Training}
 
@@ -216,7 +218,7 @@ The schedule yields a linear increase up to $\alpha=1$ at $x_0$, after which $\a
 % both cnn and vit have enough parameters for this task
 % difference in performance can be interpreted as being caused by model architecture
 
-See the learning curves of all models and datasets plotted in Fig.~\ref{fig:binary:learning_curves}. It can be seen that both the CNN and ViT models start to overfit between 20 and 40 epochs. From this, it can be concluded that both models have enough parameters for this task. Apart from the different learning schedules, differences in performance can be attributed to model architecture only. (Note that, surprisingly, for the ViT, the validation loss is in fact smaller than the training loss in the early epochs. This is caused by the unintended final dropout layer, randomly zeroing out the model output with a probability of \SI{10}{\percent}. Dropout is only applied during training and not when testing.)
+See the learning curves of all models and datasets plotted in Fig.~\ref{fig:binary:learning_curves}. It can be seen that both the CNN and ViT models start to overfit between 20 and 40 epochs. From this, it can be concluded that both models have enough parameters for this task. Apart from the different learning schedules, differences in performance can be attributed to model architecture only. (Note that, surprisingly, for ViT, the validation loss is in fact smaller than the training loss in the early epochs. This is caused by the unintended final dropout layer, which randomly zeroes the model output with a probability of \SI{10}{\percent}. Since dropout is only applied during training and disabled for inference, the model performs better on the validation dataset.)
 
 \section{Performance Comparison}
 

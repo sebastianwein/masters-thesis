@@ -329,8 +329,8 @@ The architecture makes use of \emph{residual connections} for all  sub-layers, w
 \begin{equation}
 	\text{FFN}(x) = \text{Dropout}(\text{Linear}_{d_\text{ff} \rightarrow d_\text{embed}}(\text{GELU}(\text{Linear}_{d_\text{embed} \rightarrow d_\text{ff}}(x)))),
 \end{equation}
-with hidden dimension $d_\text{ff}$, and a Gaussian error linear unit (GELU) activation~\cite{hendrycks2023gaussianerrorlinearunits}.
-Dropout \cite{hinton2012improvingneuralnetworkspreventing} is a regularization technique, which prevents networks from overfitting by randomly zeroing out elements of the given tensor. Dropout is not applied during inference.
+with hidden dimension $d_\text{ff}$, and a Gaussian error linear unit (GELU) activation~\cite{hendrycks2017bridging}.
+Dropout~\cite{JMLR:v15:srivastava14a} is a regularization technique, which prevents networks from overfitting by randomly zeroing out elements of the given tensor. Dropout is not applied during inference.
 In the original architecture, the residual connection is followed by a \emph{layer normalization}~\cite{ba2016layernormalization} to standardize the output along the embedding dimension.
 This is called \emph{post}-layer normalization. To ease training, modern implementations often employ \emph{pre}-layer normalization, so $x + \text{SubLayer}(\text{LayerNorm}(x))$ instead. 
 

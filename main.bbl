@@ -19489,10 +19489,6 @@
     \verb{doi}
     \verb 10.1093/ptep/ptx180
     \endverb
-    \verb{eprint}
-    \verb https://academic.oup.com/ptep/article-pdf/2018/1/013F01/23570266/ptx1
-    \verb 80.pdf
-    \endverb
     \field{issn}{2050-3911}
     \field{number}{1}
     \field{pages}{013F01}
@@ -44698,27 +44694,8 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{theligoscientificcollaboration2025gwtc40updatinggravitationalwavetransient}{misc}{}
-    \name{author}{1773}{}{%
-      {{hash=CTLS}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={The LIGO\bibnamedelima Scientific},
-         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
-      }}%
-      {{hash=tVC}{%
-         prefix={the},
-         prefixi={t\bibinitperiod},
-         family={Virgo\bibnamedelima Collaboration},
-         familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=tKC}{%
-         prefix={the},
-         prefixi={t\bibinitperiod},
-         family={KAGRA\bibnamedelima Collaboration},
-         familyi={K\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
+  \entry{theligoscientificcollaboration2025gwtc40updatinggravitationalwavetransient}{article}{}
+    \name{author}{1788}{}{%
       {{hash=AAG}{%
          family={Abac},
          familyi={A\bibinitperiod},
@@ -44824,8 +44801,8 @@
       {{hash=AIL}{%
          family={Ahrend},
          familyi={A\bibinitperiod},
-         given={I.\bibnamedelima L.},
-         giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={I.-L.},
+         giveni={I\bibinithyphendelim L\bibinitperiod},
       }}%
       {{hash=AL}{%
          family={Aiello},
@@ -44844,6 +44821,12 @@
          familyi={A\bibinitperiod},
          given={P.},
          giveni={P\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Akcay},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=AT}{%
          family={Akutsu},
@@ -45037,11 +45020,11 @@
          given={M.\bibnamedelima C.},
          giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
-      {{hash=SMA}{%
-         family={Sedda},
-         familyi={S\bibinitperiod},
-         given={M.\bibnamedelima Arca},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      {{hash=ASM}{%
+         family={Arca\bibnamedelima Sedda},
+         familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=AJS}{%
          family={Areeda},
@@ -45115,13 +45098,13 @@
          given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=dSMSA}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
+      {{hash=AdSMS}{%
+         prefix={Assis\bibnamedelima de},
+         prefixi={A\bibinitperiod\bibinitdelim d\bibinitperiod},
          family={Souza\bibnamedelima Melo},
          familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
-         given={S.\bibnamedelima Assis},
-         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=ASM}{%
          family={Aston},
@@ -45411,12 +45394,11 @@
          given={A.\bibnamedelima C.},
          giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
-      {{hash=IPAB}{%
-         family={II},
-         familyi={I\bibinitperiod},
-         given={P.\bibnamedelima A.\bibnamedelima Baynard},
-         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  B\bibinitperiod},
+      {{hash=BPA}{%
+         family={Baynard},
+         familyi={B\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=BM}{%
          family={Bazzan},
@@ -45484,11 +45466,11 @@
          given={J.\bibnamedelima D.},
          giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
-      {{hash=YMB}{%
-         family={Yaala},
-         familyi={Y\bibinitperiod},
-         given={M.\bibnamedelima Ben},
-         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      {{hash=BYM}{%
+         family={Ben\bibnamedelima Yaala},
+         familyi={B\bibinitperiod\bibinitdelim Y\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=BS}{%
          family={Bera},
@@ -45574,6 +45556,12 @@
          familyi={B\bibinitperiod},
          given={R.},
          giveni={R\bibinitperiod},
+      }}%
+      {{hash=BSA}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=BR}{%
          family={Bhatt},
@@ -45674,8 +45662,8 @@
       {{hash=BMA}{%
          family={Bizouard},
          familyi={B\bibinitperiod},
-         given={M.\bibnamedelima A.},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={M.-A.},
+         giveni={M\bibinithyphendelim A\bibinitperiod},
       }}%
       {{hash=BS}{%
          family={Blaber},
@@ -45790,12 +45778,6 @@
          familyi={B\bibinitperiod},
          given={A.},
          giveni={A\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Borhanian},
-         familyi={B\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
       }}%
       {{hash=BV}{%
          family={Boschi},
@@ -46025,12 +46007,11 @@
          given={R.\bibnamedelima L.},
          giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
-      {{hash=DGSC}{%
-         family={Davies},
-         familyi={D\bibinitperiod},
-         given={G.\bibnamedelima S.\bibnamedelima Cabourn},
-         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
+      {{hash=CDGS}{%
+         family={Cabourn\bibnamedelima Davies},
+         familyi={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={G.\bibnamedelima S.},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
       {{hash=CR}{%
          family={Cabrita},
@@ -46068,6 +46049,12 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
+      {{hash=CBJ}{%
+         family={Calderón\bibnamedelima Bustillo},
+         familyi={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
       {{hash=CTA}{%
          family={Callister},
          familyi={C\bibinitperiod},
@@ -46092,11 +46079,11 @@
          given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=SGC}{%
-         family={Santoro},
-         familyi={S\bibinitperiod},
-         given={G.\bibnamedelima Caneva},
-         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=CSG}{%
+         family={Caneva\bibnamedelima Santoro},
+         familyi={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=CKC}{%
          family={Cannon},
@@ -46200,11 +46187,11 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=DJC}{%
-         family={Diaz},
-         familyi={D\bibinitperiod},
-         given={J.\bibnamedelima Casanueva},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=CDJ}{%
+         family={Casanueva\bibnamedelima Diaz},
+         familyi={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=CC}{%
          family={Casentini},
@@ -46290,11 +46277,11 @@
          given={S.},
          giveni={S\bibinitperiod},
       }}%
-      {{hash=SSC}{%
-         family={Subrahmanya},
-         familyi={S\bibinitperiod},
-         given={S.\bibnamedelima Chalathadka},
-         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=CSS}{%
+         family={Chalathadka\bibnamedelima Subrahmanya},
+         familyi={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=CJCL}{%
          family={Chan},
@@ -46378,8 +46365,8 @@
       {{hash=CAHY}{%
          family={Chen},
          familyi={C\bibinitperiod},
-         given={A.\bibnamedelima H.\bibnamedelima Y.},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+         given={A.\bibnamedelima H.-Y.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinithyphendelim
   Y\bibinitperiod},
       }}%
       {{hash=CD}{%
@@ -46569,6 +46556,12 @@
          given={F.},
          giveni={F\bibinitperiod},
       }}%
+      {{hash=CSM}{%
+         family={Clyne},
+         familyi={C\bibinitperiod},
+         given={S.\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
       {{hash=CE}{%
          family={Coccia},
          familyi={C\bibinitperiod},
@@ -46584,8 +46577,8 @@
       {{hash=CPF}{%
          family={Cohadon},
          familyi={C\bibinitperiod},
-         given={P.\bibnamedelima F.},
-         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={P.-F.},
+         giveni={P\bibinithyphendelim F\bibinitperiod},
       }}%
       {{hash=CS}{%
          family={Colace},
@@ -46792,24 +46785,23 @@
          given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=CLVD}{%
-         family={Conceição},
-         familyi={C\bibinitperiod},
-         given={L.\bibnamedelima V.\bibnamedelima Da},
-         giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
+      {{hash=DCLV}{%
+         family={Da\bibnamedelima Conceição},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={L.\bibnamedelima V.},
+         giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
       }}%
-      {{hash=CTD}{%
-         family={Canton},
-         familyi={C\bibinitperiod},
-         given={T.\bibnamedelima Dal},
-         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DCT}{%
+         family={Dal\bibnamedelima Canton},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
       }}%
-      {{hash=PSD}{%
-         family={Pra},
-         familyi={P\bibinitperiod},
-         given={S.\bibnamedelima Dal},
-         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DPS}{%
+         family={Dal\bibnamedelima Pra},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=DG}{%
          family={Dálya},
@@ -46818,7 +46810,7 @@
          giveni={G\bibinitperiod},
       }}%
       {{hash=DB}{%
-         family={D'Angelo},
+         family={D’Angelo},
          familyi={D\bibinitperiod},
          given={B.},
          giveni={B\bibinitperiod},
@@ -46830,7 +46822,7 @@
          giveni={S\bibinitperiod},
       }}%
       {{hash=DS}{%
-         family={D'Antonio},
+         family={D’Antonio},
          familyi={D\bibinitperiod},
          given={S.},
          giveni={S\bibinitperiod},
@@ -46943,11 +46935,11 @@
          given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=BJD}{%
-         family={Bolle},
-         familyi={B\bibinitperiod},
-         given={J.\bibnamedelima De},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DBJ}{%
+         family={De\bibnamedelima Bolle},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=DM}{%
          family={Deenadayalan},
@@ -46961,29 +46953,35 @@
          given={J.},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=LMD}{%
-         family={Laurentis},
-         familyi={L\bibinitperiod},
-         given={M.\bibnamedelima De},
-         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DU}{%
+         family={Deka},
+         familyi={D\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
       }}%
-      {{hash=LFD}{%
-         family={Lillo},
-         familyi={L\bibinitperiod},
-         given={F.\bibnamedelima De},
-         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DLM}{%
+         family={De\bibnamedelima Laurentis},
+         familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
-      {{hash=TSD}{%
-         family={Torre},
-         familyi={T\bibinitperiod},
-         given={S.\bibnamedelima Della},
-         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DLF}{%
+         family={De\bibnamedelima Lillo},
+         familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
       }}%
-      {{hash=PWD}{%
-         family={Pozzo},
-         familyi={P\bibinitperiod},
-         given={W.\bibnamedelima Del},
-         giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DTS}{%
+         family={Della\bibnamedelima Torre},
+         familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DPW}{%
+         family={Del\bibnamedelima Pozzo},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
       }}%
       {{hash=DA}{%
          family={Demagny},
@@ -46991,11 +46989,11 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=MFD}{%
-         family={Marco},
-         familyi={M\bibinitperiod},
-         given={F.\bibnamedelima De},
-         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DMF}{%
+         family={De\bibnamedelima Marco},
+         familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
       }}%
       {{hash=DG}{%
          family={Demasi},
@@ -47003,11 +47001,11 @@
          given={G.},
          giveni={G\bibinitperiod},
       }}%
-      {{hash=MFD}{%
-         family={Matteis},
-         familyi={M\bibinitperiod},
-         given={F.\bibnamedelima De},
-         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DMF}{%
+         family={De\bibnamedelima Matteis},
+         familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
       }}%
       {{hash=DN}{%
          family={Demos},
@@ -47033,23 +47031,23 @@
          given={N.},
          giveni={N\bibinitperiod},
       }}%
-      {{hash=PRD}{%
-         family={Pietri},
-         familyi={P\bibinitperiod},
-         given={R.\bibnamedelima De},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DPR}{%
+         family={De\bibnamedelima Pietri},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
       }}%
-      {{hash=RRD}{%
-         family={Rosa},
-         familyi={R\bibinitperiod},
-         given={R.\bibnamedelima De},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DRR}{%
+         family={De\bibnamedelima Rosa},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
       }}%
-      {{hash=RCD}{%
-         family={Rossi},
-         familyi={R\bibinitperiod},
-         given={C.\bibnamedelima De},
-         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DRC}{%
+         family={De\bibnamedelima Rossi},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
       }}%
       {{hash=DM}{%
          family={Desai},
@@ -47069,11 +47067,11 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=SRD}{%
-         family={Simone},
-         familyi={S\bibinitperiod},
-         given={R.\bibnamedelima De},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DSR}{%
+         family={De\bibnamedelima Simone},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
       }}%
       {{hash=DA}{%
          family={Dhani},
@@ -47093,11 +47091,11 @@
          given={M.\bibnamedelima C.},
          giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
-      {{hash=CMD}{%
-         family={Cesare},
-         familyi={C\bibinitperiod},
-         given={M.\bibnamedelima Di},
-         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DCM}{%
+         family={Di\bibnamedelima Cesare},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=DG}{%
          family={Dideron},
@@ -47111,29 +47109,29 @@
          given={T.},
          giveni={T\bibinitperiod},
       }}%
-      {{hash=FLD}{%
-         family={Fiore},
-         familyi={F\bibinitperiod},
-         given={L.\bibnamedelima Di},
-         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DFL}{%
+         family={Di\bibnamedelima Fiore},
+         familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
       }}%
-      {{hash=FCD}{%
-         family={Fronzo},
-         familyi={F\bibinitperiod},
-         given={C.\bibnamedelima Di},
-         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DFC}{%
+         family={Di\bibnamedelima Fronzo},
+         familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
       }}%
-      {{hash=GMD}{%
-         family={Giovanni},
-         familyi={G\bibinitperiod},
-         given={M.\bibnamedelima Di},
-         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DGM}{%
+         family={Di\bibnamedelima Giovanni},
+         familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
-      {{hash=GTD}{%
-         family={Girolamo},
-         familyi={G\bibinitperiod},
-         given={T.\bibnamedelima Di},
-         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DGT}{%
+         family={Di\bibnamedelima Girolamo},
+         familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=DD}{%
          family={Diksha},
@@ -47147,29 +47145,29 @@
          given={J.},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=PSD}{%
-         family={Pace},
-         familyi={P\bibinitperiod},
-         given={S.\bibnamedelima Di},
-         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DPS}{%
+         family={Di\bibnamedelima Pace},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
-      {{hash=PID}{%
-         family={Palma},
-         familyi={P\bibinitperiod},
-         given={I.\bibnamedelima Di},
-         giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DPI}{%
+         family={Di\bibnamedelima Palma},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
       }}%
-      {{hash=PDD}{%
-         family={Piero},
-         familyi={P\bibinitperiod},
-         given={D.\bibnamedelima Di},
-         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DPD}{%
+         family={Di\bibnamedelima Piero},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
       }}%
-      {{hash=RFD}{%
-         family={Renzo},
-         familyi={R\bibinitperiod},
-         given={F.\bibnamedelima Di},
-         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DRF}{%
+         family={Di\bibnamedelima Renzo},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
       }}%
       {{hash=D}{%
          family={Divyajyoti},
@@ -47211,15 +47209,15 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=SADD}{%
-         family={Souza},
-         familyi={S\bibinitperiod},
-         given={A.\bibnamedelima Domiciano\bibnamedelima De},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
+      {{hash=DDSA}{%
+         family={Domiciano De\bibnamedelima Souza},
+         familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=DL}{%
-         family={D'Onofrio},
+         family={D’Onofrio},
          familyi={D\bibinitperiod},
          given={L.},
          giveni={L\bibinitperiod},
@@ -47288,20 +47286,20 @@
       {{hash=DPA}{%
          family={Duverne},
          familyi={D\bibinitperiod},
-         given={P.\bibnamedelima A.},
-         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={P.-A.},
+         giveni={P\bibinithyphendelim A\bibinitperiod},
       }}%
       {{hash=DD}{%
-         family={D'Urso},
+         family={D’Urso},
          familyi={D\bibinitperiod},
          given={D.},
          giveni={D\bibinitperiod},
       }}%
-      {{hash=RPD}{%
-         family={Roy},
-         familyi={R\bibinitperiod},
-         given={P.\bibnamedelima Dutta},
-         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DRP}{%
+         family={Dutta\bibnamedelima Roy},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=DH}{%
          family={Duval},
@@ -48071,11 +48069,11 @@
          given={J.},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=LSG}{%
-         family={Lopez},
-         familyi={L\bibinitperiod},
-         given={S.\bibnamedelima Gomez},
-         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      {{hash=GLS}{%
+         family={Gomez\bibnamedelima Lopez},
+         familyi={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=GB}{%
          family={Goncharov},
@@ -48413,6 +48411,12 @@
          given={E.\bibnamedelima D.},
          giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
+      {{hash=HR}{%
+         family={Hamburg},
+         familyi={H\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
       {{hash=HEZ}{%
          family={Hamilton},
          familyi={H\bibinitperiod},
@@ -48568,6 +48572,12 @@
          familyi={H\bibinitperiod},
          given={K.},
          giveni={K\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Heffernan},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=HMC}{%
          family={Heintze},
@@ -48788,14 +48798,14 @@
       {{hash=HHF}{%
          family={Hsieh},
          familyi={H\bibinitperiod},
-         given={H.\bibnamedelima F.},
-         giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={H.-F.},
+         giveni={H\bibinithyphendelim F\bibinitperiod},
       }}%
       {{hash=HHY}{%
          family={Hsieh},
          familyi={H\bibinitperiod},
-         given={H.\bibnamedelima Y.},
-         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+         given={H.-Y.},
+         giveni={H\bibinithyphendelim Y\bibinitperiod},
       }}%
       {{hash=HC}{%
          family={Hsiung},
@@ -48806,14 +48816,14 @@
       {{hash=HSH}{%
          family={Hsu},
          familyi={H\bibinitperiod},
-         given={S.\bibnamedelima H.},
-         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={S.-H.},
+         giveni={S\bibinithyphendelim H\bibinitperiod},
       }}%
       {{hash=HWF}{%
          family={Hsu},
          familyi={H\bibinitperiod},
-         given={W.\bibnamedelima F.},
-         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={W.-F.},
+         giveni={W\bibinithyphendelim F\bibinitperiod},
       }}%
       {{hash=HQ}{%
          family={Hu},
@@ -49004,8 +49014,8 @@
       {{hash=JPE}{%
          family={Jacquet},
          familyi={J\bibinitperiod},
-         given={P.\bibnamedelima E.},
-         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={P.-E.},
+         giveni={P\bibinithyphendelim E\bibinitperiod},
       }}%
       {{hash=JT}{%
          family={Jacquot},
@@ -49042,6 +49052,12 @@
          familyi={J\bibinitperiod},
          given={A.\bibnamedelima L.},
          giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Jan},
+         familyi={J\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=JK}{%
          family={Jani},
@@ -49112,8 +49128,14 @@
       {{hash=JHB}{%
          family={Jin},
          familyi={J\bibinitperiod},
-         given={H.\bibnamedelima B.},
-         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={H.-B.},
+         giveni={H\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=JSJ}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={S.\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
       {{hash=JGR}{%
          family={Johns},
@@ -49126,6 +49148,12 @@
          familyi={J\bibinitperiod},
          given={N.\bibnamedelima A.},
          giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=JMNK}{%
+         family={Johnson-McDaniel},
+         familyi={J\bibinithyphendelim M\bibinitperiod},
+         given={N.\bibnamedelima K.},
+         giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
       }}%
       {{hash=JMC}{%
          family={Johnston},
@@ -49484,8 +49512,8 @@
       {{hash=KYM}{%
          family={Kim},
          familyi={K\bibinitperiod},
-         given={Y.\bibnamedelima M.},
-         giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Y.-M.},
+         giveni={Y\bibinithyphendelim M\bibinitperiod},
       }}%
       {{hash=KC}{%
          family={Kimball},
@@ -49704,11 +49732,11 @@
          given={S.},
          giveni={S\bibinitperiod},
       }}%
-      {{hash=RAK}{%
-         family={Ramamohan},
-         familyi={R\bibinitperiod},
-         given={A.\bibnamedelima Kulur},
-         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      {{hash=KRA}{%
+         family={Kulur\bibnamedelima Ramamohan},
+         familyi={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=KA}{%
          family={Kumar},
@@ -49866,11 +49894,11 @@
          given={B.},
          giveni={B\bibinitperiod},
       }}%
-      {{hash=RIL}{%
-         family={Rosa},
-         familyi={R\bibinitperiod},
-         given={I.\bibnamedelima La},
-         giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod},
+      {{hash=LRI}{%
+         family={La\bibnamedelima Rosa},
+         familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
       }}%
       {{hash=LJ}{%
          family={Larsen},
@@ -49965,8 +49993,8 @@
       {{hash=LRK}{%
          family={Lee},
          familyi={L\bibinitperiod},
-         given={R.\bibnamedelima K.},
-         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={R.-K.},
+         giveni={R\bibinithyphendelim K\bibinitperiod},
       }}%
       {{hash=LR}{%
          family={Lee},
@@ -50010,11 +50038,11 @@
          given={L.},
          giveni={L\bibinitperiod},
       }}%
-      {{hash=JML}{%
-         family={Jean},
-         familyi={J\bibinitperiod},
-         given={M.\bibnamedelima Le},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      {{hash=LJM}{%
+         family={Le\bibnamedelima Jean},
+         familyi={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=LA}{%
          family={Lemaître},
@@ -50135,15 +50163,15 @@
       {{hash=LLCC}{%
          family={Lin},
          familyi={L\bibinitperiod},
-         given={L.\bibnamedelima C.\bibnamedelima C.},
-         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+         given={L.\bibnamedelima C.-C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinithyphendelim
   C\bibinitperiod},
       }}%
       {{hash=LYC}{%
          family={Lin},
          familyi={L\bibinitperiod},
-         given={Y.\bibnamedelima C.},
-         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Y.-C.},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
       }}%
       {{hash=LC}{%
          family={Lindsay},
@@ -50175,11 +50203,11 @@
          given={Jian},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=VFL}{%
-         family={Villarreal},
-         familyi={V\bibinitperiod},
-         given={F.\bibnamedelima Llamas},
-         giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod},
+      {{hash=LVF}{%
+         family={Llamas\bibnamedelima Villarreal},
+         familyi={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
       }}%
       {{hash=LQJ}{%
          family={Llobera-Querol},
@@ -50197,8 +50225,8 @@
       {{hash=LJP}{%
          family={Locquet},
          familyi={L\bibinitperiod},
-         given={J.\bibnamedelima P.},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={J.-P.},
+         giveni={J\bibinithyphendelim P\bibinitperiod},
       }}%
       {{hash=LSCG}{%
          family={Loggins},
@@ -50231,15 +50259,9 @@
          given={D.},
          giveni={D\bibinitperiod},
       }}%
-      {{hash=PML}{%
-         family={Portilla},
-         familyi={P\bibinitperiod},
-         given={M.\bibnamedelima Lopez},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=LM}{%
-         family={Lorenzini},
-         familyi={L\bibinitperiod},
+      {{hash=LPM}{%
+         family={Lopez\bibnamedelima Portilla},
+         familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
          given={M.},
          giveni={M\bibinitperiod},
       }}%
@@ -50273,12 +50295,11 @@
          given={E.},
          giveni={E\bibinitperiod},
       }}%
-      {{hash=ITPL}{%
-         family={IV},
-         familyi={I\bibinitperiod},
-         given={T.\bibnamedelima P.\bibnamedelima Lott},
-         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  L\bibinitperiod},
+      {{hash=LTP}{%
+         family={Lott},
+         familyi={L\bibinitperiod},
+         given={T.\bibnamedelima P.},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=LJD}{%
          family={Lough},
@@ -50482,8 +50503,8 @@
       {{hash=MAK}{%
          family={Malz},
          familyi={M\bibinitperiod},
-         given={A.\bibnamedelima K.},
-         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={A.-K.},
+         giveni={A\bibinithyphendelim K\bibinitperiod},
       }}%
       {{hash=MN}{%
          family={Man},
@@ -50816,6 +50837,12 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
+      {{hash=MM}{%
+         family={Melching},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
       {{hash=MCS}{%
          family={Menoni},
          familyi={M\bibinitperiod},
@@ -50936,12 +50963,6 @@
          given={D.\bibnamedelima P.},
          giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
-      {{hash=MAL}{%
-         family={Miller},
-         familyi={M\bibinitperiod},
-         given={A.\bibnamedelima L.},
-         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
       {{hash=MSJ}{%
          family={Miller},
          familyi={M\bibinitperiod},
@@ -50999,8 +51020,8 @@
       {{hash=MCA}{%
          family={Miritescu},
          familyi={M\bibinitperiod},
-         given={C.\bibnamedelima A.},
-         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={C.-A.},
+         giveni={C\bibinithyphendelim A\bibinitperiod},
       }}%
       {{hash=MA}{%
          family={Mishra},
@@ -51159,11 +51180,11 @@
          given={G.},
          giveni={G\bibinitperiod},
       }}%
-      {{hash=SAM}{%
-         family={Serra},
-         familyi={S\bibinitperiod},
-         given={A.\bibnamedelima Moreso},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      {{hash=MSA}{%
+         family={Moreso\bibnamedelima Serra},
+         familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=MS}{%
          family={Morisaki},
@@ -51194,6 +51215,12 @@
          familyi={M\bibinitperiod},
          given={M.},
          giveni={M\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Mourier},
+         familyi={M\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=MB}{%
          family={Mours},
@@ -51442,11 +51469,11 @@
          given={S.},
          giveni={S\bibinitperiod},
       }}%
-      {{hash=QLN}{%
-         family={Quynh},
-         familyi={Q\bibinitperiod},
-         given={L.\bibnamedelima Nguyen},
-         giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+      {{hash=NQL}{%
+         family={Nguyen\bibnamedelima Quynh},
+         familyi={N\bibinitperiod\bibinitdelim Q\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
       }}%
       {{hash=NSA}{%
          family={Nichols},
@@ -51520,12 +51547,11 @@
          given={R.},
          giveni={R\bibinitperiod},
       }}%
-      {{hash=SJFN}{%
-         family={Siles},
-         familyi={S\bibinitperiod},
-         given={J.\bibnamedelima F.\bibnamedelima Nuño},
-         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  N\bibinitperiod},
+      {{hash=NSJF}{%
+         family={Nuño\bibnamedelima Siles},
+         familyi={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
       {{hash=NLK}{%
          family={Nuttall},
@@ -51546,7 +51572,7 @@
          giveni={J\bibinitperiod},
       }}%
       {{hash=OJ}{%
-         family={O'Dell},
+         family={O’Dell},
          familyi={O\bibinitperiod},
          given={J.},
          giveni={J\bibinitperiod},
@@ -51570,7 +51596,7 @@
          giveni={G\bibinitperiod},
       }}%
       {{hash=OT}{%
-         family={O'Hanlon},
+         family={O’Hanlon},
          familyi={O\bibinitperiod},
          given={T.},
          giveni={T\bibinitperiod},
@@ -51600,7 +51626,7 @@
          giveni={R\bibinitperiod},
       }}%
       {{hash=OB}{%
-         family={O'Neal},
+         family={O’Neal},
          familyi={O\bibinitperiod},
          given={B.},
          giveni={B\bibinitperiod},
@@ -51618,10 +51644,16 @@
          giveni={K\bibinitperiod},
       }}%
       {{hash=OB}{%
-         family={O'Reilly},
+         family={O’Reilly},
          familyi={O\bibinitperiod},
          given={B.},
          giveni={B\bibinitperiod},
+      }}%
+      {{hash=OR}{%
+         family={Oram},
+         familyi={O\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
       }}%
       {{hash=OM}{%
          family={Orselli},
@@ -51630,13 +51662,13 @@
          giveni={M\bibinitperiod},
       }}%
       {{hash=OR}{%
-         family={O'Shaughnessy},
+         family={O’Shaughnessy},
          familyi={O\bibinitperiod},
          given={R.},
          giveni={R\bibinitperiod},
       }}%
       {{hash=OS}{%
-         family={O'Shea},
+         family={O’Shea},
          familyi={O\bibinitperiod},
          given={S.},
          giveni={S\bibinitperiod},
@@ -51885,8 +51917,8 @@
       {{hash=PBJ}{%
          family={Park},
          familyi={P\bibinitperiod},
-         given={B.\bibnamedelima J.},
-         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={B.-J.},
+         giveni={B\bibinithyphendelim J\bibinitperiod},
       }}%
       {{hash=PJ}{%
          family={Park},
@@ -51954,6 +51986,12 @@
          given={D.},
          giveni={D\bibinitperiod},
       }}%
+      {{hash=PL}{%
+         family={Pathak},
+         familyi={P\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
       {{hash=PA}{%
          family={Patra},
          familyi={P\bibinitperiod},
@@ -52008,12 +52046,11 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=AFEP}{%
-         family={Arellano},
-         familyi={A\bibinitperiod},
-         given={F.\bibnamedelima E.\bibnamedelima Peña},
-         giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  P\bibinitperiod},
+      {{hash=PAFE}{%
+         family={Peña\bibnamedelima Arellano},
+         familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={F.\bibnamedelima E.},
+         giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
       {{hash=PX}{%
          family={Peng},
@@ -52519,12 +52556,11 @@
          given={K.\bibnamedelima E.},
          giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
-      {{hash=VFAR}{%
-         family={Vidal},
-         familyi={V\bibinitperiod},
-         given={F.\bibnamedelima A.\bibnamedelima Ramis},
-         giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  R\bibinitperiod},
+      {{hash=RVFA}{%
+         family={Ramis\bibnamedelima Vidal},
+         familyi={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={F.\bibnamedelima A.},
+         giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=AMR}{%
          family={Arevalo},
@@ -52628,11 +52664,11 @@
          given={B.},
          giveni={B\bibinitperiod},
       }}%
-      {{hash=PAR}{%
-         family={Peña},
-         familyi={P\bibinitperiod},
-         given={A.\bibnamedelima Revilla},
-         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      {{hash=RPA}{%
+         family={Revilla\bibnamedelima Peña},
+         familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=RR}{%
          family={Reyes},
@@ -52862,11 +52898,11 @@
          given={N.},
          giveni={N\bibinitperiod},
       }}%
-      {{hash=MER}{%
-         family={Morales},
-         familyi={M\bibinitperiod},
-         given={E.\bibnamedelima Ruiz},
-         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      {{hash=RME}{%
+         family={Ruiz\bibnamedelima Morales},
+         familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
       }}%
       {{hash=RRK}{%
          family={Ruiz-Rocha},
@@ -52916,11 +52952,11 @@
          given={T.},
          giveni={T\bibinitperiod},
       }}%
-      {{hash=MSS}{%
-         family={Menon},
-         familyi={M\bibinitperiod},
-         given={S.\bibnamedelima Sajith},
-         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      {{hash=SMS}{%
+         family={Sajith\bibnamedelima Menon},
+         familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=SK}{%
          family={Sakai},
@@ -53355,6 +53391,12 @@
          given={A.\bibnamedelima K.},
          giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
       }}%
+      {{hash=SA}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
       {{hash=SP}{%
          family={Sharma},
          familyi={S\bibinitperiod},
@@ -53373,11 +53415,11 @@
          given={Ritwik},
          giveni={R\bibinitperiod},
       }}%
-      {{hash=CSS}{%
-         family={Chaudhary},
-         familyi={C\bibinitperiod},
-         given={S.\bibnamedelima Sharma},
-         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      {{hash=SCS}{%
+         family={Sharma\bibnamedelima Chaudhary},
+         familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=SP}{%
          family={Shawhan},
@@ -53400,8 +53442,8 @@
       {{hash=SZH}{%
          family={Shi},
          familyi={S\bibinitperiod},
-         given={Z.\bibnamedelima H.},
-         giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Z.-H.},
+         giveni={Z\bibinithyphendelim H\bibinitperiod},
       }}%
       {{hash=SM}{%
          family={Shikauchi},
@@ -53511,6 +53553,12 @@
          given={D.},
          giveni={D\bibinitperiod},
       }}%
+      {{hash=SMK}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
       {{hash=SN}{%
          family={Singh},
          familyi={S\bibinitperiod},
@@ -53591,13 +53639,13 @@
          given={W.\bibnamedelima J.},
          giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
-      {{hash=dAFSS}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
+      {{hash=SdAFS}{%
+         prefix={Soares\bibnamedelima de},
+         prefixi={S\bibinitperiod\bibinitdelim d\bibinitperiod},
          family={Albuquerque\bibnamedelima Filho},
          familyi={A\bibinitperiod\bibinitdelim F\bibinitperiod},
-         given={S.\bibnamedelima Soares},
-         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=SSM}{%
          family={Soares-Santos},
@@ -53719,6 +53767,12 @@
          given={P.},
          giveni={P\bibinitperiod},
       }}%
+      {{hash=SSP}{%
+         family={Stevenson},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
       {{hash=SM}{%
          family={StPierre},
          familyi={S\bibinitperiod},
@@ -53772,6 +53826,12 @@
          familyi={S\bibinitperiod},
          given={L.},
          giveni={L\bibinitperiod},
+      }}%
+      {{hash=SJM}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=SKD}{%
          family={Sullivan},
@@ -53905,11 +53965,11 @@
          given={K.},
          giveni={K\bibinitperiod},
       }}%
-      {{hash=SIT}{%
-         family={Schmiegelow},
-         familyi={S\bibinitperiod},
-         given={I.\bibnamedelima Takimoto},
-         giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod},
+      {{hash=TSI}{%
+         family={Takimoto\bibnamedelima Schmiegelow},
+         familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
       }}%
       {{hash=TAM}{%
          family={Takou-Ayaoh},
@@ -53983,12 +54043,12 @@
          given={R.\bibnamedelima D.},
          giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
-      {{hash=MENTS}{%
-         family={Martín},
-         familyi={M\bibinitperiod},
-         given={E.\bibnamedelima N. Tapia\bibnamedelima San},
-         giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
-  T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      {{hash=TSMEN}{%
+         family={Tapia San\bibnamedelima Martín},
+         familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+         given={E.\bibnamedelima N.},
+         giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
       {{hash=TC}{%
          family={Taranto},
@@ -54085,6 +54145,12 @@
          familyi={T\bibinitperiod},
          given={E.},
          giveni={E\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tibrewal},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=TJ}{%
          family={Tissino},
@@ -54194,13 +54260,13 @@
          given={C.\bibnamedelima I.},
          giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
       }}%
-      {{hash=eMIT}{%
-         prefix={e},
-         prefixi={e},
+      {{hash=TeMI}{%
+         prefix={Tosta\bibnamedelima e},
+         prefixi={T\bibinitperiod\bibinitdelim e\bibinitperiod},
          family={Melo},
          familyi={M\bibinitperiod},
-         given={I.\bibnamedelima Tosta},
-         giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
       }}%
       {{hash=TE}{%
          family={Tournefier},
@@ -54208,11 +54274,11 @@
          given={E.},
          giveni={E\bibinitperiod},
       }}%
-      {{hash=NMT}{%
-         family={Nery},
-         familyi={N\bibinitperiod},
-         given={M.\bibnamedelima Trad},
-         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      {{hash=TNM}{%
+         family={Trad\bibnamedelima Nery},
+         familyi={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=TK}{%
          family={Tran},
@@ -54444,13 +54510,13 @@
          given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=dBEV}{%
-         prefix={den},
-         prefixi={d\bibinitperiod},
+      {{hash=VdBE}{%
+         prefix={Van\bibnamedelima den},
+         prefixi={V\bibinitperiod\bibinitdelim d\bibinitperiod},
          family={Bossche},
          familyi={B\bibinitperiod},
-         given={E.\bibnamedelima Van},
-         giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
       }}%
       {{hash=vdBJFJ}{%
          prefix={van\bibnamedelima den},
@@ -54461,12 +54527,12 @@
          giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
   J\bibinitperiod},
       }}%
-      {{hash=BCVD}{%
-         family={Broeck},
-         familyi={B\bibinitperiod},
-         given={C.\bibnamedelima Van\bibnamedelima Den},
-         giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
+      {{hash=VDBC}{%
+         family={Van Den\bibnamedelima Broeck},
+         familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
       }}%
       {{hash=vdSM}{%
          prefix={van\bibnamedelima der},
@@ -54476,13 +54542,13 @@
          given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=dWAV}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
+      {{hash=VdWA}{%
+         prefix={Van\bibnamedelima de},
+         prefixi={V\bibinitperiod\bibinitdelim d\bibinitperiod},
          family={Walle},
          familyi={W\bibinitperiod},
-         given={A.\bibnamedelima Van},
-         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=vDJ}{%
          prefix={van},
@@ -54520,11 +54586,11 @@
          given={J.\bibnamedelima V.},
          giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
       }}%
-      {{hash=HPV}{%
-         family={Hove},
-         familyi={H\bibinitperiod},
-         given={P.\bibnamedelima Van},
-         giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+      {{hash=VHP}{%
+         family={Van\bibnamedelima Hove},
+         familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=VJ}{%
          family={Vanier},
@@ -54690,11 +54756,11 @@
          given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=ENV}{%
-         family={Espinosa},
-         familyi={E\bibinitperiod},
-         given={N.\bibnamedelima Villanueva},
-         giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+      {{hash=VEN}{%
+         family={Villanueva\bibnamedelima Espinosa},
+         familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
       }}%
       {{hash=VOV}{%
          family={Villa-Ortega},
@@ -54711,8 +54777,8 @@
       {{hash=VJY}{%
          family={Vinet},
          familyi={V\bibinitperiod},
-         given={J.\bibnamedelima Y.},
-         giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+         given={J.-Y.},
+         giveni={J\bibinithyphendelim Y\bibinitperiod},
       }}%
       {{hash=VS}{%
          family={Viret},
@@ -55216,8 +55282,8 @@
       {{hash=YSW}{%
          family={Yeh},
          familyi={Y\bibinitperiod},
-         given={S.\bibnamedelima W.},
-         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={S.-W.},
+         giveni={S\bibinithyphendelim W\bibinitperiod},
       }}%
       {{hash=YAB}{%
          family={Yelikar},
@@ -55276,8 +55342,8 @@
       {{hash=ZJP}{%
          family={Zendri},
          familyi={Z\bibinitperiod},
-         given={J.\bibnamedelima P.},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={J.-P.},
+         giveni={J\bibinithyphendelim P\bibinitperiod},
       }}%
       {{hash=ZM}{%
          family={Zeoli},
@@ -55342,8 +55408,8 @@
       {{hash=ZZC}{%
          family={Zhao},
          familyi={Z\bibinitperiod},
-         given={Z.\bibnamedelima C.},
-         giveni={Z\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Z.-C.},
+         giveni={Z\bibinithyphendelim C\bibinitperiod},
       }}%
       {{hash=ZY}{%
          family={Zheng},
@@ -55372,8 +55438,8 @@
       {{hash=ZZH}{%
          family={Zhu},
          familyi={Z\bibinitperiod},
-         given={Z.\bibnamedelima H.},
-         giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Z.-H.},
+         giveni={Z\bibinithyphendelim H\bibinitperiod},
       }}%
       {{hash=ZAB}{%
          family={Zimmerman},
@@ -55399,23 +55465,66 @@
          given={J.},
          giveni={J\bibinitperiod},
       }}%
+      {{hash=TLSCtVC}{%
+         family={The LIGO Scientific\bibnamedelima Collaboration},
+         familyi={T\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  S\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={the Virgo\bibnamedelima Collaboration},
+         giveni={t\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=tKC}{%
+         prefix={the},
+         prefixi={t\bibinitperiod},
+         family={KAGRA\bibnamedelima Collaboration},
+         familyi={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
     }
-    \strng{namehash}{CTLS+1}
-  \strng{fullhash}{CTLSVCtKCtAAGAIAFAKACASADANARXAVKASAAADAMANASAODAILALAAAPATASAWAKSACAAASSAPAALSAWAOAAAFACAAASBAWGAMAMACMATAJASAJMASAMAEZASASKAKAAAMCSMAAJSANAFASANAMASMAKGAGAYALAMSMSAdASMAPAFAFAKAGAEABSBCBSBSBLBRBTBAMBKABTBGBNBMBGBSWBSBBBDBTMBPBMBJCBBCBDBNBPBFBBBLBMBDBAMBMABIBABRBABMBPBJCBACIPABBMBVMBFBMBDBASBDSBLBWBIBJDYMBBSBFBBKBSBMBCPLBDBTBABJBDBGBNBRBRBDBSBSBVBABIABGBABSBCBSBOBSBABMBMABSBJKBLABCDBDGBNBNBGBMBGNBABLDBRBFBEBMSBABRBABSBVBSBVBYBABLBMBABCBPRBABMBIBTBABMBPBEBAFBBCBDDBMLBSBGBRBJBYBFBJBOBTBHJBABKBRBD}
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{AAG+1}
+  \strng{fullhash}{AAGAIAFAKACASADANARXAVKASAAADAMANASAODAILALAAAPASATASAWAKSACAAASSAPAALSAWAOAAAFACAAASBAWGAMAMACMATAJASAJMASAMAEZASASKAKAAAMCASMAJSANAFASANAMASMAKGAGAYALAMSMSAdASMAPAFAFAKAGAEABSBCBSBSBLBRBTBAMBKABTBGBNBMBGBSWBSBBBDBTMBPBMBJCBBCBDBNBPBFBBBLBMBDBAMBMABIBABRBABMBPBJCBACBPABMBVMBFBMBDBASBDSBLBWBIBJDBYMBSBFBBKBSBMBCPLBDBTBABJBDBGBNBRBSABRBDBSBSBVBABIABGBABSBCBSBOBSBABMBMABSBJKBLABCDBDGBNBNBGBMBGNBABLDBRBFBEBMSBABRBABVBSBVBYBABLBMBABCBPRBABMBIBTBABMBPBEBAFBBCBDDBMLBSBGBRBJBYBFBJBOBTBHJBABKBRBDBCBRLCDG}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 2508.18082
+    \field{abstract}{%
+    Version 4.0 of the Gravitational-Wave Transient Catalog (GWTC-4.0) adds new
+  candidates detected by the LIGO, Virgo, and KAGRA observatories through the
+  first part of the fourth observing run (O4a: 2023 May 24 15:00:00 to 2024
+  January 16 16:00:00 UTC) and a preceding engineering run. In these new data,
+  we find 128 compact binary coalescence candidates that are identified by at
+  least one of our search algorithms with a probability of astrophysical origin
+  pastro ≥ 0.5 and that are not vetoed during event validation. We also
+  provide detailed source property measurements for 86 of these that have a
+  false-alarm rate &lt;1 yr−1. Based on the inferred component masses, these
+  candidates are consistent with signals from binary black holes (BBHs) and
+  neutron star–black hole binaries (GW230518_125908 and GW230529_181500).
+  Median-inferred component masses of BBHs in the catalog now range from
+  5.79M⊙ (GW230627_015337) to 137 (GW231123_135430), while GW231123_135430
+  was probably produced by the most massive binary observed in the catalog. For
+  the first time, we have discovered BBH signals with network signal-to-noise
+  ratio exceeding 30, GW230814_230901 and GW231226_101520, enabling
+  high-fidelity studies of the waveforms and astrophysical properties of these
+  systems. Combined with the 90 candidates included in GWTC-3.0, the catalog
+  now contains 218 candidates with pastro ≥ 0.5 and not otherwise vetoed,
+  more than doubling the size of the catalog and further opening our view of
+  the gravitational-wave Universe.%
+    }
+    \verb{doi}
+    \verb 10.3847/2041-8213/ae2c74
     \endverb
-    \field{title}{GWTC-4.0: Updating the Gravitational-Wave Transient Catalog
-  with Observations from the First Part of the Fourth LIGO-Virgo-KAGRA
+    \field{number}{2}
+    \field{pages}{L22}
+    \field{title}{GWTC-4.0: Updating the Gravitational-wave Transient Catalog
+  with Observations from the First Part of the Fourth LIGO–Virgo–KAGRA
   Observing Run}
     \verb{url}
-    \verb https://arxiv.org/abs/2508.18082
+    \verb https://doi.org/10.3847/2041-8213/ae2c74
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{gr-qc}
-    \field{year}{2025}
+    \field{volume}{1004}
+    \field{journaltitle}{The Astrophysical Journal Letters}
+    \field{year}{2026}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{nobel2017}{online}{}
@@ -62814,8 +62923,8 @@
     \field{urlyear}{2026}
   \endentry
 
-  \entry{abac2025scienceeinsteintelescope}{misc}{}
-    \name{author}{488}{}{%
+  \entry{abac2025scienceeinsteintelescope}{article}{}
+    \name{author}{490}{}{%
       {{hash=AA}{%
          family={Abac},
          familyi={A\bibinitperiod},
@@ -62867,7 +62976,7 @@
       {{hash=AT}{%
          family={Andrade},
          familyi={A\bibinitperiod},
-         given={Tomas},
+         given={Tomás},
          giveni={T\bibinitperiod},
       }}%
       {{hash=AI}{%
@@ -62906,11 +63015,11 @@
          given={Manuel\bibnamedelima Arca},
          giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-      {{hash=AMC}{%
-         family={Artale},
-         familyi={A\bibinitperiod},
-         given={M.\bibnamedelima Celeste},
-         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=CAM}{%
+         family={Celeste\bibnamedelima Artale},
+         familyi={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=AS}{%
          family={Ascenzi},
@@ -62943,7 +63052,7 @@
          giveni={B\bibinitperiod},
       }}%
       {{hash=BGD}{%
-         family={Barba-Gonzalez},
+         family={Barba-González},
          familyi={B\bibinithyphendelim G\bibinitperiod},
          given={David},
          giveni={D\bibinitperiod},
@@ -62951,7 +63060,7 @@
       {{hash=BD}{%
          family={Barta},
          familyi={B\bibinitperiod},
-         given={Daniel},
+         given={Dániel},
          giveni={D\bibinitperiod},
       }}%
       {{hash=BN}{%
@@ -62981,7 +63090,7 @@
       {{hash=BM}{%
          family={Bejger},
          familyi={B\bibinitperiod},
-         given={Michal},
+         given={Michał},
          giveni={M\bibinitperiod},
       }}%
       {{hash=BE}{%
@@ -63014,12 +63123,11 @@
          given={Sebastiano},
          giveni={S\bibinitperiod},
       }}%
-      {{hash=BCPL}{%
+      {{hash=BCP}{%
          family={Berry},
          familyi={B\bibinitperiod},
-         given={Christopher P.\bibnamedelima L.},
-         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  L\bibinitperiod},
+         given={Christopher\bibnamedelima P.L.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=BE}{%
          family={Berti},
@@ -63086,6 +63194,12 @@
          familyi={B\bibinitperiod},
          given={Alice},
          giveni={A\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Borghi},
+         familyi={B\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
       }}%
       {{hash=BS}{%
          family={Borhanian},
@@ -63202,7 +63316,7 @@
          giveni={R\bibinitperiod},
       }}%
       {{hash=CDP}{%
-         family={Cerda-Duran},
+         family={Cerdá-Durán},
          familyi={C\bibinithyphendelim D\bibinitperiod},
          given={Pablo},
          giveni={P\bibinitperiod},
@@ -63256,7 +63370,7 @@
          giveni={M\bibinitperiod},
       }}%
       {{hash=CG}{%
-         family={Compere},
+         family={Compère},
          familyi={C\bibinitperiod},
          given={Geoffrey},
          giveni={G\bibinitperiod},
@@ -63304,7 +63418,7 @@
          giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=DG}{%
-         family={Dalya},
+         family={Dálya},
          familyi={D\bibinitperiod},
          given={Gergely},
          giveni={G\bibinitperiod},
@@ -63321,42 +63435,41 @@
          given={Nazanin},
          giveni={N\bibinitperiod},
       }}%
-      {{hash=LVD}{%
-         family={Luca},
-         familyi={L\bibinitperiod},
-         given={Valerio\bibnamedelima De},
-         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DLV}{%
+         family={De\bibnamedelima Luca},
+         familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Valerio},
+         giveni={V\bibinitperiod},
       }}%
-      {{hash=RVD}{%
-         family={Renzis},
-         familyi={R\bibinitperiod},
-         given={Viola\bibnamedelima De},
-         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DRV}{%
+         family={De\bibnamedelima Renzis},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Viola},
+         giveni={V\bibinitperiod},
       }}%
-      {{hash=VMD}{%
-         family={Valle},
-         familyi={V\bibinitperiod},
-         given={Massimo\bibnamedelima Della},
-         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DVM}{%
+         family={Della\bibnamedelima Valle},
+         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={Massimo},
+         giveni={M\bibinitperiod},
       }}%
-      {{hash=PWD}{%
-         family={Pozzo},
-         familyi={P\bibinitperiod},
-         given={Walter\bibnamedelima Del},
-         giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DPW}{%
+         family={Del\bibnamedelima Pozzo},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
       }}%
-      {{hash=SFD}{%
-         family={Santi},
-         familyi={S\bibinitperiod},
-         given={Federico\bibnamedelima De},
-         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=DSF}{%
+         family={De\bibnamedelima Santi},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
       }}%
-      {{hash=SALD}{%
-         family={Santis},
-         familyi={S\bibinitperiod},
-         given={Alessio Ludovico\bibnamedelima De},
-         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
+      {{hash=DSAL}{%
+         family={De\bibnamedelima Santis},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Alessio\bibnamedelima Ludovico},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
       {{hash=DT}{%
          family={Dietrich},
@@ -63451,7 +63564,7 @@
       {{hash=FF}{%
          family={Foucart},
          familyi={F\bibinitperiod},
-         given={Francois},
+         given={François},
          giveni={F\bibinitperiod},
       }}%
       {{hash=FT}{%
@@ -63497,16 +63610,16 @@
          giveni={J\bibinitperiod},
       }}%
       {{hash=GQC}{%
-         family={Garcia-Quiros},
+         family={García-Quirós},
          familyi={G\bibinithyphendelim Q\bibinitperiod},
          given={Cecilio},
          giveni={C\bibinitperiod},
       }}%
-      {{hash=GLA}{%
+      {{hash=GL�}{%
          family={Gergely},
          familyi={G\bibinitperiod},
-         given={Laszlo\bibnamedelima Arpad},
-         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={László\bibnamedelima Árpád},
+         giveni={L\bibinitperiod\bibinitdelim �\bibinitperiod},
       }}%
       {{hash=GG}{%
          family={Ghirlanda},
@@ -63551,9 +63664,9 @@
          giveni={A\bibinitperiod},
       }}%
       {{hash=GS}{%
-         family={Goriely},
+         family={Goriély},
          familyi={G\bibinitperiod},
-         given={Stephane},
+         given={Stéphane},
          giveni={S\bibinitperiod},
       }}%
       {{hash=GL}{%
@@ -63717,7 +63830,7 @@
       {{hash=KB}{%
          family={Kacskovics},
          familyi={K\bibinitperiod},
-         given={Balazs},
+         given={Balázs},
          giveni={B\bibinitperiod},
       }}%
       {{hash=KRS}{%
@@ -63771,7 +63884,7 @@
       {{hash=LF}{%
          family={Larrouturou},
          familyi={L\bibinitperiod},
-         given={Francois},
+         given={François},
          giveni={F\bibinitperiod},
       }}%
       {{hash=LP}{%
@@ -63792,12 +63905,11 @@
          given={Andrew},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=LTGF}{%
+      {{hash=LT}{%
          family={Li},
          familyi={L\bibinitperiod},
-         given={T.\bibnamedelima G.\bibnamedelima F.},
-         giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
-  F\bibinitperiod},
+         given={T.G.F.},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=LY}{%
          family={Li},
@@ -63908,7 +64020,7 @@
          giveni={S\bibinitperiod},
       }}%
       {{hash=MPG}{%
-         family={Martinez-Pinedo},
+         family={Martínez-Pinedo},
          familyi={M\bibinithyphendelim P\bibinitperiod},
          given={Gabriel},
          giveni={G\bibinitperiod},
@@ -63937,19 +64049,18 @@
          given={Andrea},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=MRFP}{%
+      {{hash=MRF}{%
          family={Mendes},
          familyi={M\bibinitperiod},
-         given={Raissa F.\bibnamedelima P.},
-         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  P\bibinitperiod},
+         given={Raissa\bibnamedelima F.P.},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
       {{hash=dSJMS}{%
          prefix={de},
          prefixi={d\bibinitperiod},
          family={Souza},
          familyi={S\bibinitperiod},
-         given={Josiel Mendonca\bibnamedelima Soares},
+         given={Josiel Mendonça\bibnamedelima Soares},
          giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
   S\bibinitperiod},
       }}%
@@ -63966,7 +64077,7 @@
          giveni={M\bibinitperiod},
       }}%
       {{hash=MP}{%
-         family={Mosta},
+         family={Mösta},
          familyi={M\bibinitperiod},
          given={Philipp},
          giveni={P\bibinitperiod},
@@ -63992,7 +64103,7 @@
       {{hash=MN}{%
          family={Muttoni},
          familyi={M\bibinitperiod},
-         given={Niccolo},
+         given={Niccolò},
          giveni={N\bibinitperiod},
       }}%
       {{hash=NA}{%
@@ -64079,12 +64190,11 @@
          given={Cristiano},
          giveni={C\bibinitperiod},
       }}%
-      {{hash=PPTH}{%
+      {{hash=PPT}{%
          family={Pang},
          familyi={P\bibinitperiod},
-         given={Peter T.\bibnamedelima H.},
-         giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
+         given={Peter\bibnamedelima T.H.},
+         giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
       {{hash=PP}{%
          family={Pani},
@@ -64123,13 +64233,13 @@
          giveni={A\bibinitperiod},
       }}%
       {{hash=PGMA}{%
-         family={Perez-Garcia},
+         family={Pérez-García},
          familyi={P\bibinithyphendelim G\bibinitperiod},
          given={Maria\bibnamedelima Angeles},
          giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=PC}{%
-         family={Perigois},
+         family={Périgois},
          familyi={P\bibinitperiod},
          given={Carole},
          giveni={C\bibinitperiod},
@@ -64141,7 +64251,7 @@
          giveni={G\bibinitperiod},
       }}%
       {{hash=PC}{%
-         family={Peroux},
+         family={Péroux},
          familyi={P\bibinitperiod},
          given={Celine},
          giveni={C\bibinitperiod},
@@ -64194,11 +64304,11 @@
          given={Lorenzo},
          giveni={L\bibinitperiod},
       }}%
-      {{hash=PEK}{%
+      {{hash=PE}{%
          family={Porter},
          familyi={P\bibinitperiod},
-         given={E.\bibnamedelima K.},
-         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={E.K.},
+         giveni={E\bibinitperiod},
       }}%
       {{hash=PRA}{%
          family={Porto},
@@ -64263,7 +64373,7 @@
       {{hash=RA}{%
          family={Rase},
          familyi={R\bibinitperiod},
-         given={Aaron},
+         given={Aäron},
          giveni={A\bibinitperiod},
       }}%
       {{hash=RM}{%
@@ -64416,12 +64526,11 @@
          given={Stefano},
          giveni={S\bibinitperiod},
       }}%
-      {{hash=SFRN}{%
+      {{hash=SFR}{%
          family={Schneider},
          familyi={S\bibinitperiod},
-         given={Fabian R.\bibnamedelima N.},
-         giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
-  N\bibinitperiod},
+         given={Fabian\bibnamedelima R.N.},
+         giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=SR}{%
          family={Schneider},
@@ -64438,7 +64547,7 @@
       {{hash=SG}{%
          family={Servant},
          familyi={S\bibinitperiod},
-         given={Geraldine},
+         given={Géraldine},
          giveni={G\bibinitperiod},
       }}%
       {{hash=SA}{%
@@ -64492,7 +64601,7 @@
       {{hash=SDA}{%
          family={Steer},
          familyi={S\bibinitperiod},
-         given={Daniele\bibnamedelima A.},
+         given={Danièle\bibnamedelima A.},
          giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=SJ}{%
@@ -64514,7 +64623,7 @@
          giveni={R\bibinitperiod},
       }}%
       {{hash=SD}{%
-         family={Suarez},
+         family={Suárez},
          familyi={S\bibinitperiod},
          given={Duvier},
          giveni={D\bibinitperiod},
@@ -64574,7 +64683,7 @@
          giveni={S\bibinitperiod},
       }}%
       {{hash=TFA}{%
-         family={Torres-Forne},
+         family={Torres-Forné},
          familyi={T\bibinithyphendelim F\bibinitperiod},
          given={Alejandro},
          giveni={A\bibinitperiod},
@@ -64598,7 +64707,7 @@
          giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=DLV}{%
-         family={Dall'Armi},
+         family={Dall’Armi},
          familyi={D\bibinitperiod},
          given={Lorenzo\bibnamedelima Valbusa},
          giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
@@ -64630,14 +64739,13 @@
          given={Maarten},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=vSLAC}{%
+      {{hash=vSLA}{%
          prefix={van},
          prefixi={v\bibinitperiod},
          family={Son},
          familyi={S\bibinitperiod},
-         given={Lieke A.\bibnamedelima C.},
-         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
+         given={Lieke\bibnamedelima A.C.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=VM}{%
          family={Vanvlasselaer},
@@ -64687,12 +64795,11 @@
          given={Helvi},
          giveni={H\bibinitperiod},
       }}%
-      {{hash=WICF}{%
+      {{hash=WIC}{%
          family={Wong},
          familyi={W\bibinitperiod},
-         given={Isaac C.\bibnamedelima F.},
-         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  F\bibinitperiod},
+         given={Isaac\bibnamedelima C.F.},
+         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=YS}{%
          family={Yazadjiev},
@@ -64731,7 +64838,7 @@
          giveni={A\bibinitperiod},
       }}%
       {{hash=ACM}{%
-         family={Andres-Carcasona},
+         family={Andrés-Carcasona},
          familyi={A\bibinithyphendelim C\bibinitperiod},
          given={Marc},
          giveni={M\bibinitperiod},
@@ -64793,7 +64900,7 @@
       {{hash=SJLB}{%
          family={Salcedo},
          familyi={S\bibinitperiod},
-         given={Jose Luis\bibnamedelima Blazquez},
+         given={José Luis\bibnamedelima Blázquez},
          giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
   B\bibinitperiod},
       }}%
@@ -64932,7 +65039,7 @@
       {{hash=DJ}{%
          family={Degallaix},
          familyi={D\bibinitperiod},
-         given={Jerome},
+         given={Jérôme},
          giveni={J\bibinitperiod},
       }}%
       {{hash=LMD}{%
@@ -65242,7 +65349,7 @@
       {{hash=LVA}{%
          family={Lartaux-Vollard},
          familyi={L\bibinithyphendelim V\bibinitperiod},
-         given={Angelique},
+         given={Angélique},
          giveni={A\bibinitperiod},
       }}%
       {{hash=LL}{%
@@ -65288,7 +65395,7 @@
          giveni={L\bibinitperiod},
       }}%
       {{hash=LH}{%
-         family={Luck},
+         family={Lück},
          familyi={L\bibinitperiod},
          given={Harald},
          giveni={H\bibinitperiod},
@@ -65642,13 +65749,13 @@
          giveni={S\bibinitperiod},
       }}%
       {{hash=SR}{%
-         family={Szabo},
+         family={Szabó},
          familyi={S\bibinitperiod},
-         given={Robert},
+         given={Róbert},
          giveni={R\bibinitperiod},
       }}%
       {{hash=TT}{%
-         family={Thummler},
+         family={Thümmler},
          familyi={T\bibinitperiod},
          given={Thomas},
          giveni={T\bibinitperiod},
@@ -65677,11 +65784,11 @@
          given={Lucia},
          giveni={L\bibinitperiod},
       }}%
-      {{hash=VMP}{%
-         family={Vaccaro},
-         familyi={V\bibinitperiod},
-         given={M.\bibnamedelima Paola},
-         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      {{hash=PVM}{%
+         family={Paola\bibnamedelima Vaccaro},
+         familyi={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=VM}{%
          family={Valentini},
@@ -65690,7 +65797,7 @@
          giveni={M\bibinitperiod},
       }}%
       {{hash=VP}{%
-         family={Van},
+         family={Ván},
          familyi={V\bibinitperiod},
          given={Peter},
          giveni={P\bibinitperiod},
@@ -65773,21 +65880,56 @@
          given={Andreas},
          giveni={A\bibinitperiod},
       }}%
+      {{hash=cTET}{%
+         family={collaboration},
+         familyi={c\bibinitperiod},
+         given={The Einstein\bibnamedelima Telescope},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
     }
     \strng{namehash}{AA+1}
-  \strng{fullhash}{AAARASAAAAAMACANATAIAFAMAJAFSMAAMCASAPBMBCBBBGDBDBNBABABFBMBEBNBLBMGBSBCPLBEBGBDBMBSBSBMABPJJBSBABABSBEBMTBMBMBRBEBFSBTBABFBACGCSCECGCCCRCRCDPCPCSCTCMCFCPCACMCGCCCMCFCSCECGCTDDGDPDNLVDRVDVMDPWDSFDSALDDTDEDGDDDMDUDHDIERNFSFAFFMFMFRFTFFFTFSFGFJGJGRGBJGQCGLAGGGAGBGFGIFGBGAGSGLGGGLGGMGIHMHMHJHAHBHAHNHGHISHTHAvdHQHSIFIGIGVDIJJJKJACJIKBKRSKKKHJKSKSLDLALGLFLPLMLALTGFLYLDLMLBLEFJLELOLOELGGMEMMMMMMMPMAMAMBAMSMPGMAMSMIMAMRFPSJMSdMGMMMPMCMMMTMNNANHNLMPNNGNABNSOMOMOGOFPCPGPCPPTHPPPLPBPAPAPAPGMAPCPGPCPJPDPAP}
+  \strng{fullhash}{AAARASAAAAAMACANATAIAFAMAJAFSMACAMASAPBMBCBBBGDBDBNBABABFBMBEBNBLBMGBSBCPBEBGBDBMBSBSBMABPJJBSBABABNBSBEBMTBMBMBRBEBFSBTBABFBACGCSCECGCCCRCRCDPCPCSCTCMCFCPCACMCGCCCMCFCSCECGCTDDGDPDNDLVDRVDVMDPWDSFDSALDTDEDGDDDMDUDHDIERNFSFAFFMFMFRFTFFFTFSFGFJGJGRGBJGQCGL�GGGAGBGFGIFGBGAGSGLGGGLGGMGIHMHMHJHAHBHAHNHGHISHTHAvdHQHSIFIGIGVDIJJJKJACJIKBKRSKKKHJKSKSLDLALGLFLPLMLALTLYLDLMLBLEFJLELOLOELGGMEMMMMMMMPMAMAMBAMSMPGMAMSMIMAMRFSJMSdMGMMMPMCMMMTMNNANHNLMPNNGNABNSOMOMOGOFPCPGPCPPTPPPLPBPAPAPAPGMAPCPGPCPJPDPAPHPP}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 2503.12263
+    \field{abstract}{%
+    Einstein Telescope (ET) is the European project for a gravitational-wave
+  (GW) observatory of third-generation. In this paper we present a
+  comprehensive discussion of its science objectives, providing
+  state-of-the-art predictions for the capabilities of ET in both geometries
+  currently under consideration, a single-site triangular configuration or two
+  L-shaped detectors. We discuss the impact that ET will have on domains as
+  broad and diverse as fundamental physics, cosmology, early Universe,
+  astrophysics of compact objects, physics of matter in extreme conditions, and
+  dynamics of stellar collapse. We discuss how the study of extreme
+  astrophysical events will be enhanced by multi-messenger observations. We
+  highlight the ET synergies with ground-based and space-borne GW
+  observatories, including multi-band investigations of the same sources,
+  improved parameter estimation, and complementary information on astrophysical
+  or cosmological mechanisms obtained combining observations from different
+  frequency bands. We present advancements in waveform modeling dedicated to
+  third-generation observatories, along with open tools developed within the ET
+  Collaboration for assessing the scientific potentials of different detector
+  configurations. We finally discuss the data analysis challenges posed by
+  third-generation observatories, which will enable access to large populations
+  of sources and provide unprecedented precision.%
+    }
+    \verb{doi}
+    \verb 10.1088/1475-7516/2026/03/081
     \endverb
+    \field{number}{03}
+    \field{pages}{081}
     \field{title}{The Science of the Einstein Telescope}
     \verb{url}
-    \verb https://arxiv.org/abs/2503.12263
+    \verb https://doi.org/10.1088/1475-7516/2026/03/081
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{gr-qc}
-    \field{year}{2025}
+    \field{volume}{2026}
+    \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+    \field{year}{2026}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Abbott_2017_kilonova}{article}{}
@@ -87794,7 +87936,7 @@
     \field{year}{2022}
   \endentry
 
-  \entry{paszke2019pytorchimperativestylehighperformance}{misc}{}
+  \entry{paszke2019pytorchimperativestylehighperformance}{inproceedings}{}
     \name{author}{21}{}{%
       {{hash=PA}{%
          family={Paszke},
@@ -87863,7 +88005,7 @@
          giveni={A\bibinitperiod},
       }}%
       {{hash=KA}{%
-         family={Köpf},
+         family={Kopf},
          familyi={K\bibinitperiod},
          given={Andreas},
          giveni={A\bibinitperiod},
@@ -87877,7 +88019,7 @@
       {{hash=DZ}{%
          family={DeVito},
          familyi={D\bibinitperiod},
-         given={Zach},
+         given={Zachary},
          giveni={Z\bibinitperiod},
       }}%
       {{hash=RM}{%
@@ -87923,20 +88065,61 @@
          giveni={S\bibinitperiod},
       }}%
     }
+    \name{editor}{6}{}{%
+      {{hash=WH}{%
+         family={Wallach},
+         familyi={W\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Larochelle},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Beygelzimer},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=dABF}{%
+         prefix={d\textquotesingle},
+         prefixi={d\bibinitperiod},
+         family={Alch\'{e}-Buc},
+         familyi={A\bibinithyphendelim B\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Garnett},
+         familyi={G\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Curran Associates, Inc.}%
+    }
     \strng{namehash}{PA+1}
     \strng{fullhash}{PAGSMFLABJCGKTLZGNALDAKAYEDZRMTACSSBFLBJCS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1912.01703
-    \endverb
+    \field{booktitle}{Advances in Neural Information Processing Systems}
     \field{title}{PyTorch: An Imperative Style, High-Performance Deep Learning
   Library}
     \verb{url}
-    \verb https://arxiv.org/abs/1912.01703
+    \verb https://proceedings.neurips.cc/paper_files/paper/2019/file/bdbca288fe
+    \verb e7f92f2bfa9f7012727740-Paper.pdf
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.LG}
+    \field{volume}{32}
     \field{year}{2019}
   \endentry
 
@@ -87957,7 +88140,9 @@
     \verb{url}
     \verb https://cs231n.stanford.edu/
     \endverb
-    \warn{\item Invalid format of field 'urldate'}
+    \field{urlday}{05}
+    \field{urlmonth}{05}
+    \field{urlyear}{2026}
   \endentry
 
   \entry{raschka}{book}{}
@@ -88039,7 +88224,7 @@
     \field{year}{2019}
   \endentry
 
-  \entry{10.1145/3065386}{article}{}
+  \entry{10.1145/3065386}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=KA}{%
          family={Krizhevsky},
@@ -88056,54 +88241,55 @@
       {{hash=HGE}{%
          family={Hinton},
          familyi={H\bibinitperiod},
-         given={Geoffrey\bibnamedelima E.},
+         given={Geoffrey\bibnamedelima E},
          giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
     }
+    \name{editor}{4}{}{%
+      {{hash=PF}{%
+         family={Pereira},
+         familyi={P\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Burges},
+         familyi={B\bibinitperiod},
+         given={C.J.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bottou},
+         familyi={B\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Weinberger},
+         familyi={W\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
     \list{publisher}{1}{%
-      {Association for Computing Machinery}%
+      {Curran Associates, Inc.}%
     }
     \strng{namehash}{KASIHGE1}
     \strng{fullhash}{KASIHGE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    We trained a large, deep convolutional neural network to classify the 1.2
-  million high-resolution images in the ImageNet LSVRC-2010 contest into the
-  1000 different classes. On the test data, we achieved top-1 and top-5 error
-  rates of 37.5\% and 17.0\%, respectively, which is considerably better than
-  the previous state-of-the-art. The neural network, which has 60 million
-  parameters and 650,000 neurons, consists of five convolutional layers, some
-  of which are followed by max-pooling layers, and three fully connected layers
-  with a final 1000-way softmax. To make training faster, we used
-  non-saturating neurons and a very efficient GPU implementation of the
-  convolution operation. To reduce overfitting in the fully connected layers we
-  employed a recently developed regularization method called "dropout" that
-  proved to be very effective. We also entered a variant of this model in the
-  ILSVRC-2012 competition and achieved a winning top-5 test error rate of
-  15.3\%, compared to 26.2\% achieved by the second-best entry.%
-    }
-    \verb{doi}
-    \verb 10.1145/3065386
-    \endverb
-    \field{issn}{0001-0782}
-    \field{number}{6}
-    \field{pages}{84–90}
-    \field{title}{ImageNet classification with deep convolutional neural
-  networks}
+    \field{booktitle}{Advances in Neural Information Processing Systems}
+    \field{title}{ImageNet Classification with Deep Convolutional Neural
+  Networks}
     \verb{url}
-    \verb https://doi.org/10.1145/3065386
+    \verb https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b
+    \verb 9d6b76c8436e924a68c45b-Paper.pdf
     \endverb
-    \field{volume}{60}
-    \list{location}{1}{%
-      {New York, NY, USA}%
-    }
-    \field{journaltitle}{Commun. ACM}
-    \field{month}{05}
-    \field{year}{2017}
+    \field{volume}{25}
+    \field{year}{2012}
   \endentry
 
-  \entry{Bahdanau2014NeuralMT}{article}{}
+  \entry{Bahdanau2014NeuralMT}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=BD}{%
          family={Bahdanau},
@@ -88124,18 +88310,35 @@
          giveni={Y\bibinitperiod},
       }}%
     }
+    \name{editor}{2}{}{%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={LeCun},
+         familyi={L\bibinitperiod},
+         given={Yann},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
     \strng{namehash}{BDCKBY1}
     \strng{fullhash}{BDCKBY1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{booktitle}{3rd International Conference on Learning Representations,
+  {ICLR} 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings}
     \field{title}{Neural Machine Translation by Jointly Learning to Align and
   Translate}
-    \field{volume}{abs/1409.0473}
-    \field{journaltitle}{CoRR}
-    \field{year}{2014}
+    \verb{url}
+    \verb https://arxiv.org/abs/1409.0473
+    \endverb
+    \field{year}{2015}
   \endentry
 
-  \entry{hendrycks2023gaussianerrorlinearunits}{misc}{}
+  \entry{hendrycks2017bridging}{misc}{}
     \name{author}{2}{}{%
       {{hash=HD}{%
          family={Hendrycks},
@@ -88166,19 +88369,19 @@
     \field{year}{2023}
   \endentry
 
-  \entry{hinton2012improvingneuralnetworkspreventing}{misc}{}
+  \entry{JMLR:v15:srivastava14a}{article}{}
     \name{author}{5}{}{%
-      {{hash=HGE}{%
-         family={Hinton},
-         familyi={H\bibinitperiod},
-         given={Geoffrey\bibnamedelima E.},
-         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
       {{hash=SN}{%
          family={Srivastava},
          familyi={S\bibinitperiod},
          given={Nitish},
          giveni={N\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=KA}{%
          family={Krizhevsky},
@@ -88192,28 +88395,27 @@
          given={Ilya},
          giveni={I\bibinitperiod},
       }}%
-      {{hash=SRR}{%
+      {{hash=SR}{%
          family={Salakhutdinov},
          familyi={S\bibinitperiod},
-         given={Ruslan\bibnamedelima R.},
-         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Ruslan},
+         giveni={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HGE+1}
-    \strng{fullhash}{HGESNKASISRR1}
+    \strng{namehash}{SN+1}
+    \strng{fullhash}{SNHGKASISR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1207.0580
-    \endverb
-    \field{title}{Improving neural networks by preventing co-adaptation of
-  feature detectors}
+    \field{number}{56}
+    \field{pages}{1929\bibrangedash 1958}
+    \field{title}{Dropout: A Simple Way to Prevent Neural Networks from
+  Overfitting}
     \verb{url}
-    \verb https://arxiv.org/abs/1207.0580
+    \verb http://jmlr.org/papers/v15/srivastava14a.html
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.NE}
-    \field{year}{2012}
+    \field{volume}{15}
+    \field{journaltitle}{Journal of Machine Learning Research}
+    \field{year}{2014}
   \endentry
 
   \entry{ba2016layernormalization}{misc}{}
@@ -88251,6 +88453,27 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{stat.ML}
     \field{year}{2016}
+  \endentry
+
+  \entry{git_simulation}{software}{}
+    \name{author}{1}{}{%
+      {{hash=WS}{%
+         family={Wein},
+         familyi={W\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WS1}
+    \strng{fullhash}{WS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{GitHub repository}
+    \field{title}{gw-simulation}
+    \verb{url}
+    \verb https://github.com/sebastianwein/gw-simulation
+    \endverb
+    \field{year}{2026}
   \endentry
 
   \entry{ET-0304B-22}{report}{}
@@ -95679,7 +95902,28 @@
     \field{year}{2017}
   \endentry
 
-  \entry{DBLP:journals/corr/HeZRS15}{article}{}
+  \entry{git_models}{software}{}
+    \name{author}{1}{}{%
+      {{hash=WS}{%
+         family={Wein},
+         familyi={W\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WS1}
+    \strng{fullhash}{WS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{GitHub repository}
+    \field{title}{ml-models}
+    \verb{url}
+    \verb https://github.com/sebastianwein/ml-models
+    \endverb
+    \field{year}{2026}
+  \endentry
+
+  \entry{he2016residual}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=HK}{%
          family={He},
@@ -95706,21 +95950,31 @@
          giveni={J\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \keyw{a}
     \strng{namehash}{HK+1}
     \strng{fullhash}{HKZXRSSJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1512.03385
+    \field{booktitle}{Proceedings of 2016 IEEE Conference on Computer Vision
+  and Pattern Recognition}
+    \verb{doi}
+    \verb 10.1109/CVPR.2016.90
     \endverb
-    \field{title}{Deep Residual Learning for Image Recognition}
+    \field{issn}{1063-6919}
+    \field{pages}{770\bibrangedash 778}
+    \field{series}{CVPR '16}
+    \field{title}{{Deep Residual Learning for Image Recognition}}
     \verb{url}
-    \verb http://arxiv.org/abs/1512.03385
+    \verb http://ieeexplore.ieee.org/document/7780459
     \endverb
-    \field{volume}{abs/1512.03385}
-    \field{journaltitle}{CoRR}
-    \field{eprinttype}{arXiv}
-    \field{year}{2015}
+    \list{location}{1}{%
+      {Las Vegas, NV, USA}%
+    }
+    \field{month}{06}
+    \field{year}{2016}
   \endentry
 
   \entry{pmlr-v37-ioffe15}{inproceedings}{}
@@ -95797,7 +96051,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{DBLP:journals/corr/abs-2010-11929}{article}{}
+  \entry{dosovitskiy2021an}{inproceedings}{}
     \name{author}{12}{}{%
       {{hash=DA}{%
          family={Dosovitskiy},
@@ -95876,21 +96130,16 @@
     \strng{fullhash}{DABLKAWDZXUTDMMMHGGSUJHN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 2010.11929
-    \endverb
+    \field{booktitle}{International Conference on Learning Representations}
     \field{title}{An Image is Worth 16x16 Words: Transformers for Image
   Recognition at Scale}
     \verb{url}
-    \verb https://arxiv.org/abs/2010.11929
+    \verb https://openreview.net/forum?id=YicbFdNTTy
     \endverb
-    \field{volume}{abs/2010.11929}
-    \field{journaltitle}{CoRR}
-    \field{eprinttype}{arXiv}
-    \field{year}{2020}
+    \field{year}{2021}
   \endentry
 
-  \entry{loshchilov2019decoupledweightdecayregularization}{misc}{}
+  \entry{loshchilov2019decoupledweightdecayregularization}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=LI}{%
          family={Loshchilov},
@@ -95909,15 +96158,11 @@
     \strng{fullhash}{LIHF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1711.05101
-    \endverb
+    \field{booktitle}{International Conference on Learning Representations}
     \field{title}{Decoupled Weight Decay Regularization}
     \verb{url}
-    \verb https://arxiv.org/abs/1711.05101
+    \verb https://openreview.net/forum?id=Bkg6RiCqY7
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.LG}
     \field{year}{2019}
   \endentry
 
@@ -96110,7 +96355,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{tompson2014jointtrainingconvolutionalnetwork}{misc}{}
+  \entry{tompson2014jointtrainingconvolutionalnetwork}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=TJ}{%
          family={Tompson},
@@ -96137,24 +96382,37 @@
          giveni={C\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
     \strng{namehash}{TJ+1}
     \strng{fullhash}{TJJALYBC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1406.2984
-    \endverb
-    \field{title}{Joint Training of a Convolutional Network and a Graphical
-  Model for Human Pose Estimation}
-    \verb{url}
-    \verb https://arxiv.org/abs/1406.2984
-    \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.CV}
+    \field{abstract}{%
+    This paper proposes a new hybrid architecture that consists of a deep
+  Convolu-tional Network and a Markov Random Field. We show how this
+  architecture is successfully applied to the challenging problem of
+  articulated human pose estimation in monocular images. The architecture can
+  exploit structural domain constraints such as geometric relationships between
+  body joint locations. We show that joint training of these two model
+  paradigms improves performance and allows us to significantly outperform
+  existing state-of-the-art techniques.%
+    }
+    \field{booktitle}{Proceedings of the 28th International Conference on
+  Neural Information Processing Systems - Volume 1}
+    \field{pages}{1799–1807}
+    \field{series}{NIPS'14}
+    \field{title}{Joint training of a convolutional network and a graphical
+  model for human pose estimation}
+    \list{location}{1}{%
+      {Montreal, Canada}%
+    }
     \field{year}{2014}
+    \warn{\item Can't use 'location' + 'address'}
   \endentry
 
-  \entry{wang2021lowresolutionhumanposeestimation}{misc}{}
+  \entry{wang2021lowresolutionhumanposeestimation}{article}{}
     \name{author}{4}{}{%
       {{hash=WC}{%
          family={Wang},
@@ -96181,23 +96439,45 @@
          giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
+    \keyw{Human pose estimation, Low resolution image, Heatmap learning, Offset
+  learning, Quantization error}
     \strng{namehash}{WC+1}
     \strng{fullhash}{WCZFZXGSS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 2109.09090
+    \field{abstract}{%
+    Human pose estimation has achieved significant progress on images with high
+  imaging resolution. However, low-resolution imagery data bring nontrivial
+  challenges which are still under-studied. To fill this gap, we start with
+  investigating existing methods and reveal that the most dominant
+  heatmap-based methods would suffer more severe model performance degradation
+  from low-resolution, and offset learning is an effective strategy.
+  Established on this observation, in this work we propose a novel
+  Confidence-Aware Learning (CAL) method which further addresses two
+  fundamental limitations of existing offset learning methods: inconsistent
+  training and testing, decoupled heatmap and offset learning. Specifically,
+  CAL selectively weighs the learning of heatmap and offset with respect to
+  ground-truth and most confident prediction, whilst capturing the statistical
+  importance of model output in mini-batch learning manner. Extensive
+  experiments conducted on the COCO benchmark show that our method outperforms
+  significantly the state-of-the-art methods for low-resolution human pose
+  estimation.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.patcog.2022.108579
     \endverb
-    \field{title}{Low-resolution Human Pose Estimation}
+    \field{issn}{0031-3203}
+    \field{pages}{108579}
+    \field{title}{Low-resolution human pose estimation}
     \verb{url}
-    \verb https://arxiv.org/abs/2109.09090
+    \verb https://www.sciencedirect.com/science/article/pii/S0031320322000607
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.CV}
-    \field{year}{2021}
+    \field{volume}{126}
+    \field{journaltitle}{Pattern Recognition}
+    \field{year}{2022}
   \endentry
 
-  \entry{law2019cornernetdetectingobjectspaired}{misc}{}
+  \entry{law2019cornernetdetectingobjectspaired}{article}{}
     \name{author}{2}{}{%
       {{hash=LH}{%
          family={Law},
@@ -96216,16 +96496,19 @@
     \strng{fullhash}{LHDJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1808.01244
+    \verb{doi}
+    \verb 10.1007/s11263-019-01204-1
     \endverb
+    \field{issn}{1573-1405}
+    \field{number}{3}
+    \field{pages}{642\bibrangedash 656}
     \field{title}{CornerNet: Detecting Objects as Paired Keypoints}
     \verb{url}
-    \verb https://arxiv.org/abs/1808.01244
+    \verb https://doi.org/10.1007/s11263-019-01204-1
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.CV}
-    \field{year}{2019}
+    \field{volume}{128}
+    \field{journaltitle}{International Journal of Computer Vision}
+    \field{year}{2020}
   \endentry
 
   \entry{2020SciPy-NMeth}{article}{}
@@ -96492,7 +96775,7 @@
     \field{year}{2021}
   \endentry
 
-  \entry{ronneberger2015unetconvolutionalnetworksbiomedical}{misc}{}
+  \entry{ronneberger2015unetconvolutionalnetworksbiomedical}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=RO}{%
          family={Ronneberger},
@@ -96513,20 +96796,65 @@
          giveni={T\bibinitperiod},
       }}%
     }
+    \name{editor}{4}{}{%
+      {{hash=NN}{%
+         family={Navab},
+         familyi={N\bibinitperiod},
+         given={Nassir},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hornegger},
+         familyi={H\bibinitperiod},
+         given={Joachim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WWM}{%
+         family={Wells},
+         familyi={W\bibinitperiod},
+         given={William\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FAF}{%
+         family={Frangi},
+         familyi={F\bibinitperiod},
+         given={Alejandro\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
     \strng{namehash}{ROFPBT1}
     \strng{fullhash}{ROFPBT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1505.04597
-    \endverb
+    \field{abstract}{%
+    There is large consent that successful training of deep networks requires
+  many thousand annotated training samples. In this paper, we present a network
+  and training strategy that relies on the strong use of data augmentation to
+  use the available annotated samples more efficiently. The architecture
+  consists of a contracting path to capture context and a symmetric expanding
+  path that enables precise localization. We show that such a network can be
+  trained end-to-end from very few images and outperforms the prior best method
+  (a sliding-window convolutional network) on the ISBI challenge for
+  segmentation of neuronal structures in electron microscopic stacks. Using the
+  same network trained on transmitted light microscopy images (phase contrast
+  and DIC) we won the ISBI cell tracking challenge 2015 in these categories by
+  a large margin. Moreover, the network is fast. Segmentation of a 512x512
+  image takes less than a second on a recent GPU. The full implementation
+  (based on Caffe) and the trained networks are available at
+  http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net.%
+    }
+    \field{booktitle}{Medical Image Computing and Computer-Assisted
+  Intervention -- MICCAI 2015}
+    \field{isbn}{978-3-319-24574-4}
+    \field{pages}{234\bibrangedash 241}
     \field{title}{U-Net: Convolutional Networks for Biomedical Image
   Segmentation}
-    \verb{url}
-    \verb https://arxiv.org/abs/1505.04597
-    \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.CV}
+    \list{location}{1}{%
+      {Cham}%
+    }
     \field{year}{2015}
   \endentry
 

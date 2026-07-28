@@ -34,7 +34,7 @@ Although not implemented in this thesis, such a model can simply be adapted to r
 
 The DETR architecture consists of a CNN backbone, a transformer encoder, and a transformer decoder. Up to the encoder, the architecture is similar to the transformer-based heatmap-regressor. The difference is that the encoder output tokens are not read out directly to produce a heatmap, but serve as the source sequence of a transformer decoder. 
 The decoder takes a number of learned \emph{queries} as its target sequence. The decoder output is read out with two prediction heads to produce a class score and the signal coalescence time. In principle, by appending more prediction heads, this architecture can be adapted to return other parameters as well.
-See a schematic of the original architecture in Fig.~\ref{fig:detr:detr}. In a way, DETR is a natural extension of the ViT~\cite{DBLP:journals/corr/abs-2010-11929} architecture to multiple classification tokens.
+See a schematic of the original architecture in Fig.~\ref{fig:detr:detr}. In a way, DETR is a natural extension of the ViT~\cite{dosovitskiy2021an} architecture to multiple classification tokens.
 
 One limitation of the DETR architecture is that the number of possible predictions per sample is fixed by the query count. This problem can be dealt with by simply choosing the number of queries to be sufficiently high. 
 
